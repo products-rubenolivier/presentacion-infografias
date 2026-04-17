@@ -1,0 +1,904 @@
+# -*- coding: utf-8 -*-
+═══════════════════════════════════════════════════════════════════════
+  GUION SINCRONIZADO — 100 DÍAS DE ACCIÓN
+  H. Ayuntamiento de Tuxpan, Veracruz 2026–2029
+  Fuente discurso: carpeta BLOQUES (PDFs)
+  Fuente slides:   sitio web (35 slides activos)
+  Operación:       avance MANUAL con clic
+═══════════════════════════════════════════════════════════════════════
+
+MAPA DE SLIDES (referencia rápida)
+───────────────────────────────────────────────────────────────────────
+ 01  B01 · Portada — LO QUE ENCONTRAMOS · LO QUE CONSTRUIMOS
+ 02  B02 · Portada — ASISTENCIA SOCIAL Y ATENCIÓN A GRUPOS VULNERABLES
+ 03  B02-S1 · SALUD EN CASA              (+2,500 · 2,100 · 395)
+ 04  B02-S2 · ATENCIÓN COMUNITARIA       (4,000 · 45 · 157)
+ 05  B02-S3 · CAPACITACIÓN Y APOYOS     (50 · 1,289 · +2,500)
+ 06  B02-S4 · DESAYUNOS ESCOLARES        (646,162 · 131 · 6,034)
+ 07  B02-S5 · ATENCIÓN A LA MUJER        (4,300 · 1,400 · 524 · 181)
+ 08  B03 · Portada — TU CIUDAD, MEJOR
+ 09  B03-S1 · ALUMBRADO PÚBLICO          (3,282 · 1/5 · 630)
+ 10  B03-S2 · ELECTRIFICACIÓN RURAL      (400 · 67 · 75)
+ 11  B03-S3 · INFRAESTRUCTURA Y RECOLECCIÓN (550 · 1.5 KM · 17 · 84)
+ 12  B03-S4 · ESPACIOS PÚBLICOS          (90 · 105 KM · 29)
+ 13  B04 · Portada — IDENTIDAD Y FUTURO
+ 14  B04-S1 · INFRAESTRUCTURA EDUCATIVA  (29 · 12 · 560)
+ 15  B04-S2 · EDUCACIÓN Y CULTURA        (918 · 82 · 540 · 900)
+ 16  B04-S3 · JUVENTUD                   (133 · 120)
+ 17  B04-S4 · ECONOMÍA LOCAL             (25 · 85 · +350)
+ 18  B05 · Portada — SEGURIDAD Y CONFIANZA
+ 19  B05-S1 · PREVENCIÓN ESCOLAR         (35 · 2,431 · 14)
+ 20  B05-S2 · PATRULLAJE Y RESPUESTA     (11 · 214 · 1,694)
+ 21  B05-S3 · OPERATIVOS Y CULTURA VIAL  (65 · 743 · 4,300)
+ 22  B06 · Portada — TUXPAN COMPITE, DEPORTE
+ 23  B06-S1 · DEPORTE COMPETITIVO        (375 · 15 · 44)
+ 24  B07 · Portada — TUXPAN AL MUNDO
+ 25  B07-S1 · SECTOR TURÍSTICO           (60+ · 5 · 12)
+ 26  B07-S2 · PROMOCIÓN TURÍSTICA        (80 · 1)
+ 27  B07-S3 · OCUPACIÓN HOTELERA         (98% · 2,573)
+ 28  B08 · Portada — GOBIERNO CERCANO, INCLUYENTE Y QUE DA RESPUESTA
+ 29  B08-S1 · PARTICIPACIÓN CIUDADANA    (45 · 60 · 1,200 · 44 · 6 · 1,675)
+ 30  B09 · Portada — OBRA PÚBLICA, INFRAESTRUCTURA Y DESARROLLO
+ 31  B09-S1 · AGUA Y SANEAMIENTO         (59 · 27 · 125)
+ 32  B09-S2 · DRENAJE Y BACHEO           (19,000 M · 141)
+ 33  B09-S3 · OBRAS E INVERSIÓN          (30 · 12,000 m² · $1.2 MDP)
+ 34  B10 · Portada — EMBELLECIMIENTO Y ORDEN URBANO
+ 35  B10-S1 · ORDEN URBANO               (14 KM · +70,630 ML · 1 · 18)
+───────────────────────────────────────────────────────────────────────
+
+
+╔═══════════════════════════════════════════════════════════════════════
+║  PARTE 1 — GUION ANOTADO
+╚═══════════════════════════════════════════════════════════════════════
+
+Los marcadores tienen este formato:
+  ► [CAMBIAR A SLIDE N — Nombre]   → operador hace clic AQUÍ
+  · [MANTENER SLIDE ACTUAL]        → no hacer nada, el orador continúa
+  ⚠ [SIN SLIDE ASIGNADO]           → pasaje sin slide correspondiente
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BLOQUE 1 — APERTURA
+"Lo que encontramos. Lo que decidimos."
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► [CAMBIAR A SLIDE 1 — B01 Portada "LO QUE ENCONTRAMOS · LO QUE CONSTRUIMOS"]
+  (Avanzar antes de que el orador inicie o en las primeras palabras.)
+
+Hace cien días llegamos a este Ayuntamiento con una promesa
+clara y de corazón:
+
+¡Hacer las cosas BIEN!
+
+No la promesa fácil de que todo cambiaría de la noche a la mañana.
+La promesa difícil, la honesta, la REAL. La promesa de trabajar todos
+los días, con responsabilidad y con el corazón puesto en Tuxpan, para
+que nuestra gente tenga el gobierno que se merece.
+
+· [MANTENER SLIDE ACTUAL]
+
+Hoy estamos aquí, frente a ustedes, para rendir cuentas.
+Para decirles, con la frente en alto, qué encontramos, qué construimos
+y qué hemos logrado en estos primeros cien días.
+
+· [MANTENER SLIDE ACTUAL]
+
+En este tiempo hemos avanzado con firmeza en la transparencia,
+la buena administración y el uso responsable de los recursos públicos.
+Implementamos controles más estrictos, fortalecimos la rendición de
+cuentas y promovimos un gasto ordenado, eficiente y con verdadero
+sentido social.
+
+Hoy el compromiso es claro y profundo: administrar bien para
+servir mejor a cada tuxpeño y a cada tuxpeña.
+
+[Referencia del discurso: "Entra Infografía 1." — ya estamos en Slide 1, NO avanzar]
+
+· [MANTENER SLIDE ACTUAL]
+
+Recibimos una administración con grandes retos, y ante eso decidimos
+actuar y dar resultados. Decidimos que quejarse y culpar al pasado no
+era una solución. Que teníamos que actuar. Que íbamos a hacer más
+con lo que hay, con orden y con transparencia.
+
+Establecimos límites de gasto, impulsamos compras competitivas y
+creamos mecanismos de seguimiento para que cada peso tenga un
+destino claro y verificable.
+
+Y con una regla que no tiene excepción en esta administración:
+el dinero público o se gasta bien, O NO SE GASTA.
+
+Nosotros entendemos que lo realmente necesario es lo más importante.
+Aunque planear no siempre se ve, es lo que hace que las cosas sucedan.
+
+Porque gobernar no es improvisar.
+Gobernar es anticiparse, ordenar y tomar decisiones con rumbo,
+visión y cariño por Tuxpan.
+Porque cuando hay planeación, las cosas se hacen bien.
+
+Hoy la transformación se ve… y se siente.
+
+[FIN BLOQUE 1]
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BLOQUE 2 — ASISTENCIA SOCIAL Y ATENCIÓN A GRUPOS VULNERABLES
+"Servir es estar cerca de quienes más lo necesitan"
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► [CAMBIAR A SLIDE 2 — B02 Portada "ASISTENCIA SOCIAL"]
+  (Al iniciar el Bloque 2.)
+
+En este gobierno entendemos algo muy simple y muy profundo:
+servir es estar cerca de quienes más lo necesitan.
+
+Por eso, desde el primer día, a través de la Dirección de Salud,
+del Sistema DIF Municipal y del Instituto Municipal de la Mujer,
+hemos sacado los servicios a las calles, colonias y a las comunidades,
+donde realmente hacen falta.
+
+Nuestro compromiso ha sido claro y de corazón: acompañar, proteger
+y generar condiciones de bienestar para las niñas, los niños, las mujeres,
+las personas adultas mayores y las familias que más requieren nuestro respaldo.
+
+· [MANTENER SLIDE ACTUAL]
+
+Ya atendimos a más de 2,152 personas con el programa "La Salud Inicia
+en Casa" y con las Brigadas Médicas que recorren el municipio.
+Levantamos el diagnóstico real de las 20 casas de salud —muchas
+abandonadas, sin insumos y sin seguimiento— y trazamos el plan para
+recuperarlas. Llevamos 9 botiquines de primeros auxilios a las
+comunidades de la Ruta de los Kilómetros.
+
+Arrancamos una campaña permanente de donación de medicamentos que
+ya suma más de 2,100 unidades entregadas a quienes más las necesitan.
+Y a través de Escuelas Saludables llegamos a más de 395 estudiantes
+con pláticas de prevención y hábitos saludables.
+
+El DIF no se quedó esperando en la oficina. Salió. Y los números
+lo demuestran.
+
+► [CAMBIAR A SLIDE 3 — B02-S1 · SALUD EN CASA (+2,500 · 2,100 · 395)]
+  (Cue exacto: "Entra Infografía 2A." — avanzar en este momento.)
+
+Desde el 6 de enero, el DIF de Tuxpan ya había llegado a 45
+comunidades y colonias para celebrar el Día de Reyes con más de
+3,800 niñas y niños. No fue un acto aislado. Fue una decisión de
+gobierno: estar presente desde el primer día, con planeación, con
+sensibilidad y con el corazón.
+
+En coordinación con el Registro Civil formalizamos la unión de
+157 parejas en bodas colectivas, incluyendo parejas igualitarias
+y seis parejas dentro del CERESO.
+
+► [CAMBIAR A SLIDE 4 — B02-S2 · ATENCIÓN COMUNITARIA (4,000 · 45 · 157)]
+  (Al mencionar "45 comunidades" y "157 parejas".)
+
+Pusimos en marcha 50 talleres de capacitación en áreas como cocina,
+repostería y manualidades que beneficiaron a 1,289 personas, abriendo
+caminos de autoempleo y emprendimiento. Llevamos apoyos invernales
+—cobijas, despensas y alimentos calientes— a 382 familias en los
+pasillos de los hospitales. Y a través de Trabajo Social entregamos más
+de 2,500 apoyos adicionales: medicamentos, estudios, apoyos funerarios
+y gestión con especialistas.
+
+► [CAMBIAR A SLIDE 5 — B02-S3 · CAPACITACIÓN Y APOYOS (50 · 1,289 · +2,500)]
+  (Al mencionar "50 talleres" o "1,289 personas".)
+
+A través del programa Mil Días entregamos 700 canastas básicas a
+143 madres en la etapa más crítica del desarrollo de sus hijos.
+
+Y luego están los desayunos escolares: 646,162 desayunos calientes
+en 131 escuelas —36 urbanas y 95 rurales— llegando a 6,034 niñas
+y niños. Cada uno de esos desayunos es un niño con energía para
+aprender y una razón más para ir a la escuela.
+
+► [CAMBIAR A SLIDE 6 — B02-S4 · DESAYUNOS ESCOLARES (646,162 · 131 · 6,034)]
+  (Al mencionar "646,162 desayunos".)
+
+En el Centro Regional de Rehabilitación Integral se brindaron 4,300
+atenciones —terapias físicas, de aprendizaje y atención psicológica.
+Rehabilitamos el tanque terapéutico, el único del sector público en la
+zona norte del estado.
+
+A través de la Procuraduría Municipal de Protección de Niñas, Niños
+y Adolescentes se brindaron 1,400 servicios, con énfasis en asesorías
+jurídicas.
+
+[Cue del discurso: "Entra Infografía 2B." — avanzar aquí.]
+
+► [CAMBIAR A SLIDE 7 — B02-S5 · ATENCIÓN A LA MUJER (4,300 · 1,400 · 524 · 181)]
+  (Cue exacto: "Entra Infografía 2B." — avanzar en este momento.)
+
+524 mujeres fueron atendidas directamente con acompañamiento en
+autoestima, depresión, ansiedad y conflicto familiar. No como casos
+clínicos, sino como personas que merecen ser escuchadas y respaldadas.
+
+Además, a través del Instituto Municipal de la Mujer se realizaron
+181 atenciones jurídicas, incluyendo 70 asesorías y 32 casos de
+pensión alimenticia.
+
+Porque para nuestro gobierno, cuidar a las mujeres también es defender
+sus derechos, acompañarlas en momentos complicados y garantizar que
+no estén solas.
+
+En este gobierno no dejamos a nadie atrás. Cuidamos a los más
+vulnerables con cercanía, con dignidad y con resultados.
+
+Eso es hacer las cosas BIEN.
+
+[FIN BLOQUE 2]
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BLOQUE 3 — TU CIUDAD, MEJOR
+"Servicios públicos municipales"
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► [CAMBIAR A SLIDE 8 — B03 Portada "TU CIUDAD, MEJOR"]
+  (Al iniciar el Bloque 3.)
+
+Hoy podemos decirlo con la frente en alto y con mucho orgullo:
+Tuxpan ya está iluminado.
+
+► [CAMBIAR A SLIDE 9 — B03-S1 · ALUMBRADO PÚBLICO (3,282 · 1/5 · 630)]
+  (Avanzar de inmediato al mencionar "3,282 luminarias". La portada se muestra brevemente.)
+
+En solo tres meses reparamos 3,282 luminarias, una quinta parte del
+total con las que cuenta el municipio. Porque nuestra gente no tiene
+por qué vivir a oscuras.
+
+Además, colocamos 630 nuevas luminarias donde antes no existían,
+beneficiando a 42 colonias y 37 comunidades, incluyendo 100 en la
+zona de playas.
+
+· [MANTENER SLIDE ACTUAL]
+
+El boulevard más importante de Tuxpan había permanecido dos años
+en la oscuridad. Desde antes de tomar posesión, este gobierno se puso
+a trabajar con las instancias federales. Gracias a eso, el día 12 de la
+actual administración se encendieron 400 luminarias de nuestro
+emblemático boulevard.
+
+Me comprometí a no tener un Tuxpan de la ciudad y otro de las
+comunidades. Somos un solo Tuxpan.
+
+► [CAMBIAR A SLIDE 10 — B03-S2 · ELECTRIFICACIÓN RURAL (400 · 67 · 75)]
+  (Al mencionar "400 luminarias del boulevard" o "67 comunidades".)
+
+Por eso, en estos primeros cien días llevamos alumbrado público a
+67 comunidades que por mucho tiempo estuvieron olvidadas.
+
+En la comunidad El Sacrificio. Durante años ese nombre no era solo
+un letrero: era la realidad que vivían cada noche. EN OSCURIDAD TOTAL.
+En coordinación con el gobierno del estado y gracias al apoyo de la
+Gobernadora, logramos la instalación eléctrica completa. En estos
+cien días instalamos 75 luminarias. Hoy más de 550 personas, 68
+familias y 186 predios, cuentan con luz.
+
+Eso no es solo infraestructura. Eso es dignidad para nuestras comunidades.
+
+· [MANTENER SLIDE ACTUAL]
+
+Rehabilitamos también uno de los principales accesos a la playa:
+1.5 kilómetros completamente iluminados.
+
+Cambiamos el cableado aéreo por subterráneo en 1.5 kilómetros del
+boulevard, de Zósimo Pérez a Xiconténcatl.
+
+► [CAMBIAR A SLIDE 11 — B03-S3 · INFRAESTRUCTURA Y RECOLECCIÓN (550 · 1.5 KM · 17 · 84)]
+  (Al mencionar "1.5 kilómetros" o "17 camiones" o "84 rutas".)
+
+Y en cuanto a la limpieza, encontramos un Tuxpan con 60 días de
+retraso en la recolección de basura y recibimos solamente 3 camiones
+funcionando. Hoy contamos con 17 camiones en operación —revertimos
+el rezago. Hoy Tuxpan vuelve a estar limpio, como merece su gente.
+
+Contamos con 84 rutas de recolección activas que cubren 162 colonias
+y comunidades. Hoy todas las comunidades tienen servicio de recolección
+de basura.
+
+Se adquirieron 90 contenedores de basura de calidad.
+
+En el rastro municipal se llevó a cabo un proceso integral de
+saneamiento ambiental, logrando que los residuos ya no contaminen
+nuestro río.
+
+► [CAMBIAR A SLIDE 12 — B03-S4 · ESPACIOS PÚBLICOS (90 · 105 KM · 29)]
+  (Cue exacto del discurso: "Entra Infografía 3." — avanzar en este momento.)
+
+La imagen de Tuxpan es muy importante, y el cuidado de nuestras áreas
+verdes se estableció como una prioridad.
+
+Realizamos la poda y mantenimiento de 105 kilómetros de camellones
+en las principales vialidades. Atendimos 15 parques en distintas colonias
+y comunidades —la Plaza Cívica, el Parque Reforma, el Parque Ribereño,
+el Parque de la Bandera, y muchos más— devolviéndoles vida como
+espacios de convivencia familiar y recreación.
+
+· [MANTENER SLIDE ACTUAL]
+
+También mejoramos 9 jardineras estratégicas en puntos clave de la ciudad
+y realizamos la limpieza y mantenimiento de la orilla del río Tuxpan y el
+estero Tenechaco. Rehabilitamos además 5 áreas verdes más e iniciamos
+la dignificación del Panteón Jardín.
+
+Hoy, en El Sacrificio y en cada una de nuestras comunidades, la
+diferencia se ve y se vive.
+
+La próxima vez que manejen por el boulevard de noche, vean las
+luminarias, noten la diferencia.
+
+Eso no lo hizo solo un gobierno. Lo hicimos entre todos, con los
+recursos de todos, para todos.
+
+Siéntanse orgullosos de ser tuxpeños.
+Ese orgullo es exactamente lo que se siente cuando las cosas se hacen ¡BIEN!
+
+[FIN BLOQUE 3]
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BLOQUE 4 — IDENTIDAD Y FUTURO
+"Educación, Cultura y Juventud"
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► [CAMBIAR A SLIDE 13 — B04 Portada "IDENTIDAD Y FUTURO"]
+  (Al iniciar el Bloque 4.)
+
+Un municipio no se mide solo por sus calles iluminadas o sus parques
+limpios. Se mide también por lo que le ofrece a su gente para crecer,
+para crear y para soñar.
+
+En estos cien días trabajamos precisamente en eso: en construir las
+condiciones para que Tuxpan sea un lugar donde el talento y la cultura
+tengan un espacio para crecer.
+
+· [MANTENER SLIDE ACTUAL]
+
+En educación comenzamos por lo esencial, aunque no siempre sea lo
+más visible: la base legal. Apoyamos a 29 planteles en la gestión de
+cédulas catastrales y a 12 en trámites de escrituración. Porque sin esa
+base, las escuelas no pueden recibir inversión estatal.
+
+También llevamos talleres y cursos a más de 560 alumnas y alumnos.
+
+► [CAMBIAR A SLIDE 14 — B04-S1 · INFRAESTRUCTURA EDUCATIVA (29 · 12 · 560)]
+  (Al mencionar "29 planteles", "12 escrituración" o "560 alumnos".)
+
+Fortalecer los valores cívicos y la identidad huasteca es sembrar el
+futuro de Tuxpan. Realizamos 5 actos cívicos donde participaron
+918 alumnos, 82 profesores y 115 padres de familia, promoviendo el
+respeto, el amor por nuestros símbolos y el sentido de pertenencia.
+
+Y para ayudar a las y los jóvenes a decidir su futuro, realizamos la
+Primera Expo Profesiográfica Tuxpan, donde 540 estudiantes y padres
+de familia recibieron orientación directa de instituciones de nivel superior.
+
+Y ahora hablemos de la cultura, el alma de cualquier municipio que sabe
+quién es.
+
+Por primera vez en Tuxpan, el Parque Reforma se convirtió en un
+verdadero recinto bohemio. Las Noches Bohemias reunieron a más de
+900 personas.
+
+► [CAMBIAR A SLIDE 15 — B04-S2 · EDUCACIÓN Y CULTURA (918 · 82 · 540 · 900)]
+  (Al mencionar "918 alumnos", "82 profesores", "540 estudiantes" o "900 personas".)
+
+Los Domingos Culturales regresaron semana a semana con cantantes,
+grupos musicales, escuelas de gimnasia y ballet.
+
+Arrancamos talleres municipales gratuitos de danza folklórica, baile
+moderno, dibujo y teatro, donde 133 alumnas y alumnos ya están
+descubriendo su talento.
+
+Impulsamos el acceso a la cultura con visitas a museos y bibliotecas que
+sumaron 1,038 visitantes, y donamos más de 1,200 acervos bibliográficos
+a escuelas del municipio.
+
+[Cue del discurso: "Entra Infografía 4." — avanzar aquí.]
+
+► [CAMBIAR A SLIDE 16 — B04-S3 · JUVENTUD (133 · 120 Tarjeta Juventux)]
+  (Cue exacto: "Entra Infografía 4." — avanzar al inicio del segmento de jóvenes.)
+
+Hablemos de los jóvenes. Porque en ellos está todo lo que Tuxpan puede
+llegar a ser, y apostar por ellos no es una opción. Es la obligación más
+importante que tiene este gobierno.
+
+La Tarjeta Juventux está dirigida a jóvenes de entre 15 y 29 años.
+Tenemos más de 120 jóvenes inscritos en el primer mes y 25 comercios
+afiliados.
+
+Realizamos la primera Feria de Emprendedores Juveniles, con 85 jóvenes
+que demostraron que en Tuxpan sí se puede emprender.
+
+Y una de las acciones más valientes de estos cien días fue el foro
+Hablemos a Tiempo, dedicado a la prevención del suicidio y la inteligencia
+emocional, que llegó a más de 350 jóvenes.
+
+► [CAMBIAR A SLIDE 17 — B04-S4 · ECONOMÍA LOCAL (25 comercios · 85 · +350)]
+  (Al mencionar "25 comercios", "85 jóvenes" o "+350 jóvenes del foro".)
+
+En cien días estas acciones llegaron a 1,315 jóvenes tuxpeños.
+
+Tuxpan tiene talento. Y este gobierno tiene el compromiso firme de que
+ese talento no tenga que irse a otro lado para brillar.
+
+[Cue del discurso: "Entra Video 4." — es un video externo, mantener Slide 17 visible.]
+
+· [MANTENER SLIDE ACTUAL — durante video externo]
+
+[FIN BLOQUE 4]
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BLOQUE 5 — SEGURIDAD Y CONFIANZA
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► [CAMBIAR A SLIDE 18 — B05 Portada "SEGURIDAD Y CONFIANZA"]
+  (Al iniciar el Bloque 5.)
+
+En materia de seguridad, es importante hablar con claridad. Nos
+enfrentamos a un reto muy grande que se viene arrastrando a nivel
+nacional desde hace muchos años.
+
+Sin embargo, este Ayuntamiento no es omiso ni se mantiene al margen;
+asumimos nuestra responsabilidad estando cerca de la gente y actuando
+desde lo que nos corresponde.
+
+Nos toca prevenir, fortalecer a nuestra policía municipal, vigilar nuestras
+colonias, atender de manera inmediata los reportes ciudadanos, ordenar
+el tránsito y proteger a la población a través de Protección Civil.
+
+Nos toca también recuperar espacios públicos y generar condiciones para
+la convivencia y la paz social.
+
+Porque entendemos que la seguridad no solo se construye con operativos,
+se construye todos los días, en lo local, con presencia, con atención y
+con responsabilidad.
+
+Esa es la apuesta firme de esta administración: una seguridad que
+previene antes de tener que reaccionar.
+
+· [MANTENER SLIDE ACTUAL — párrafos de contexto y enfoque del gobierno]
+
+En estos cien días, nuestros elementos dieron pláticas promoviendo la
+cultura de la prevención y la convivencia sana en 35 planteles educativos,
+llegando a 2,431 alumnas y alumnos, 147 docentes y 254 padres de familia.
+Promoviendo la participación ciudadana, visitaron 14 colonias para orientar
+y capacitar a sus redes vecinales mediante el programa de proximidad social,
+visitaron comunidades y se acercaron a 58 comercios.
+
+► [CAMBIAR A SLIDE 19 — B05-S1 · PREVENCIÓN ESCOLAR (35 · 2,431 · 14)]
+  (Al mencionar "35 planteles", "2,431 alumnos" o "14 colonias".)
+
+Porque la seguridad que se construye desde la confianza es la que
+realmente dura.
+
+Recibimos 3 patrullas de la Policía Municipal, apenas funcionando.
+Y gracias a los esfuerzos que hemos hecho con este gobierno, al día
+de hoy, ya contamos con 11.
+
+En coordinación con la Secretaría de Seguridad Pública del Gobierno
+del Estado, se colocaron cámaras en puntos estratégicos de nuestra ciudad.
+
+Esa presencia cercana ya está dando resultados concretos: localizamos
+a 11 personas extraviadas —5 adultos mayores y 6 menores— y las
+reunimos con sus familias. Rescatamos a una persona en el río Tuxpan,
+sofocamos incendios forestales y atendimos emergencias en playa
+y comunidades.
+
+Se realizaron 214 detenciones por faltas administrativas. 18 personas
+por diferentes delitos. Y 25 vehículos asegurados.
+
+1,694 reportes de auxilios ciudadanos fueron atendidos.
+
+► [CAMBIAR A SLIDE 20 — B05-S2 · PATRULLAJE Y RESPUESTA (11 · 214 · 1,694)]
+  (Al mencionar "11 patrullas", "214 detenciones" o "1,694 reportes".)
+
+Se renovó el convenio de colaboración con la Secretaría de Marina
+Armada de México. Hemos trabajado en coordinación con las dependencias
+de seguridad del gobierno federal, a quienes reconozco por su invaluable
+labor en favor de nuestra patria.
+
+Aprovecho para expresar, con respeto y reconocimiento, nuestro
+agradecimiento a quienes hoy nos acompañan en este evento, integrantes
+de las fuerzas de seguridad. Su presencia no solo nos honra, también
+refrenda el compromiso conjunto que tenemos con Tuxpan y su gente.
+
+Una policía municipal que sirve a su gente, no solo la vigila, también
+la protege.
+
+Quiero destacar algo que me parece especialmente importante:
+la Policía de Género.
+
+En estos cien días entregamos 65 medidas de protección, brindamos
+68 auxilios por violencia familiar y 33 en situaciones de violencia de
+género. No son estadísticas. Son 65 mujeres que hoy cuentan con una
+orden que las protege, y 68 familias donde alguien llegó a tiempo.
+
+Este gobierno no mira para otro lado.
+
+· [MANTENER SLIDE ACTUAL — discurso de reconocimiento y coordinación]
+
+Realizamos 743 operativos interinstitucionales en coordinación con los
+tres órdenes de gobierno. En Protección Civil atendimos el Frente Frío
+número 41 y logramos un saldo blanco en el Operativo Semana Santa:
+92 atenciones médicas, 15 personas rescatadas y 10 extraviados reunidos
+con sus familias, sin ningún deceso por inmersión en nuestras playas.
+
+A través de la Dirección de Tránsito Municipal implementamos el
+programa "Uno por Uno", una estrategia sencilla pero efectiva que
+promueve la cultura vial, el respeto y el orden en nuestras calles.
+"Primero tú, luego yo."
+
+Tránsito Municipal capacitó en cultura vial a más de 4,300 estudiantes.
+
+► [CAMBIAR A SLIDE 21 — B05-S3 · OPERATIVOS Y CULTURA VIAL (65 · 743 · 4,300)]
+  (Al mencionar "743 operativos" o "4,300 estudiantes".)
+
+Equipamos a todo el personal operativo con cámaras corporales.
+Esto significa transparencia total: certeza para el ciudadano y protección
+para el propio elemento.
+
+· [MANTENER SLIDE ACTUAL]
+
+Porque en esta administración la seguridad también se construye con
+honestidad y rendición de cuentas.
+
+Esto es lo que estamos construyendo en Tuxpan:
+Una seguridad más cercana, más preventiva y más confiable.
+
+[FIN BLOQUE 5]
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BLOQUE 6 — TUXPAN COMPITE
+"Deporte"
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► [CAMBIAR A SLIDE 22 — B06 Portada "TUXPAN COMPITE, DEPORTE"]
+  (Al iniciar el Bloque 6.)
+
+Hay una realidad que este gobierno asumió desde el primer día:
+el deporte no es un lujo.
+
+Es una herramienta de transformación. Es el espacio donde un niño o
+un joven descubre realmente de lo que es capaz, y donde un municipio
+escribe su historia y demuestra de qué está hecho.
+
+Lo primero que hicimos fue recuperar lo que la inundación nos había
+quitado. La Unidad Deportiva Enrique Valdéz Constantino, el corazón
+del deporte en Tuxpan, había quedado afectada. En cuestión de días la
+recuperamos, la limpiamos y la reabrimos.
+
+· [MANTENER SLIDE ACTUAL]
+
+Y luego vino la Olimpiada CONADE 2026.
+
+375 atletas tuxpeños de 15 disciplinas representaron a nuestro municipio.
+El gobierno los respaldó con transporte, uniformes y todo el material
+que necesitaron.
+
+Los resultados hablan por sí solos: 101 clasificados a la etapa regional,
+38 a la etapa nacional y 44 medallas de oro. ¡Cuarenta y cuatro!
+Récord histórico en el estado de Veracruz.
+
+Tuxpan no solo participó… Tuxpan ganó.
+
+► [CAMBIAR A SLIDE 23 — B06-S1 · DEPORTE COMPETITIVO (375 · 15 · 44)]
+  (Cue exacto del discurso: "Entra Infografía 6." — avanzar en este momento.)
+
+Pero hay tres historias que quiero contarles. Tres historias que nacieron
+en las academias deportivas municipales de Tuxpan y que hoy están
+escribiendo su nombre muy en alto.
+
+Mayte Madison García Martínez, seleccionada nacional Sub-12 de
+basquetbol. Viajó a Panamá a competir contra equipos de 12 países
+y no solo compitió… ganó. Campeona del torneo y MVP del torneo.
+
+· [MANTENER SLIDE ACTUAL]
+
+Said Manuel Aguilar, "Chay", egresado de la Academia de Béisbol
+Municipal. Firmó contrato con la organización de los New York Yankees
+y hoy está en República Dominicana, en la academia de uno de los
+equipos más grandes del mundo.
+
+Diego Jacobo Escudero, de la Academia de Canotaje Municipal.
+Clasificó al Campeonato Mundial Juvenil 2026 que se celebrará
+en Canadá.
+
+Tres jóvenes. Tres disciplinas distintas. Un mismo origen: las academias
+deportivas de este municipio.
+
+Eso no es casualidad. Eso es lo que pasa cuando un gobierno invierte
+en su gente, cree en su talento y les da las oportunidades.
+
+El talento siempre estuvo aquí. Mayte, Chay y Diego son la prueba de
+que cuando un gobierno y su gente jalan juntos, no hay límite para lo
+que Tuxpan puede alcanzar.
+
+[Cue del discurso: "Entra Video 6." — video externo, mantener Slide 23 visible.]
+
+· [MANTENER SLIDE ACTUAL — durante video externo]
+
+[FIN BLOQUE 6]
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BLOQUE 7 — TUXPAN AL MUNDO
+⚠ SIN ARCHIVO DE DISCURSO EN CARPETA BLOQUES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚠ [SIN SLIDE ASIGNADO A DISCURSO — este bloque no tiene PDF de discurso]
+
+Los slides 24 al 27 se presentan de forma VISUAL durante una pausa,
+transición musical, o presentación libre del conductor del evento.
+El operador avanza manualmente al ritmo que indique el conductor.
+
+► [CAMBIAR A SLIDE 24 — B07 Portada "TUXPAN AL MUNDO"]
+► [CAMBIAR A SLIDE 25 — B07-S1 · SECTOR TURÍSTICO]
+► [CAMBIAR A SLIDE 26 — B07-S2 · PROMOCIÓN TURÍSTICA]
+► [CAMBIAR A SLIDE 27 — B07-S3 · OCUPACIÓN HOTELERA]
+
+[FIN BLOQUE 7]
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BLOQUE 8 — GOBIERNO CERCANO, INCLUYENTE Y QUE DA RESPUESTA
+"Desarrollo Social, Bienestar para las Comunidades y Participación Ciudadana"
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► [CAMBIAR A SLIDE 28 — B08 Portada "GOBIERNO CERCANO, INCLUYENTE Y QUE DA RESPUESTA"]
+  (Al iniciar el Bloque 8.)
+
+Uno de los compromisos más claros que hicimos en campaña fue crear
+la Dirección de Bienestar para las Comunidades.
+
+Hoy, a solo cien días, esa promesa no está en un papel… está en el
+territorio, transformando vidas.
+
+No venimos a hacer por la gente. Venimos a hacer con la gente.
+
+· [MANTENER SLIDE ACTUAL]
+
+Hemos realizado 45 jornadas comunitarias tipo tequio, recuperando y
+mejorando espacios que son el corazón de nuestras comunidades: campos,
+parques, galeras, capillas, caminos, escuelas y domos.
+
+Para fortalecer el vínculo directo con la gente, creamos una red de
+60 Jefes de Manzana y Gestores Vecinales en colonias como Ruiz
+Cortines, Centro, Santiago de la Peña, Las Granjas y Puerto Pesquero.
+
+► [CAMBIAR A SLIDE 29 — B08-S1 · PARTICIPACIÓN CIUDADANA (45 · 60 · 1,200 · 44 · 6 · 1,675)]
+  (Al mencionar "45 jornadas" o "60 Jefes de Manzana".)
+
+Escuchamos a nuestros pueblos indígenas como nunca antes. Realizamos
+la primera Consulta Pública a Pueblos Indígenas en la historia reciente
+del municipio, con la participación de más de 1,200 personas de
+44 comunidades.
+
+Además, la Secretaría General organizó 6 foros de consulta ciudadana.
+Porque en este gobierno la voz de la ciudadanía no solo se escucha…
+se convierte en decisiones.
+
+· [MANTENER SLIDE ACTUAL]
+
+Y para dar un salto en la atención ciudadana, implementamos la
+Ventanilla Única. Hemos brindado 585 atenciones presenciales,
+recibido 445 oficios y procesado 1,675 solicitudes, con un tiempo
+promedio de solución de 11 días y más del 88% ya atendidas.
+
+Menos vueltas, más respuestas.
+
+Esto es un gobierno cercano, incluyente y que da respuesta.
+Un gobierno que cumple lo que promete y que, sobre todo, hace las
+cosas BIEN.
+
+[FIN BLOQUE 8]
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BLOQUE 9 — OBRA PÚBLICA, INFRAESTRUCTURA Y DESARROLLO
+"Reconstruyendo los servicios básicos que Tuxpan se merece"
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► [CAMBIAR A SLIDE 30 — B09 Portada "OBRA PÚBLICA, INFRAESTRUCTURA Y DESARROLLO"]
+  (Al iniciar el Bloque 9.)
+
+El discurso de campaña no eran palabras vacías, era un compromiso
+que hoy es realidad. Prometimos modernizar la red de drenaje
+hidrosanitaria y crear cuadrillas permanentes para atender y reparar
+fugas de agua.
+
+· [MANTENER SLIDE ACTUAL — descripción de la situación crítica heredada]
+
+Al llegar encontramos una realidad crítica que por años nadie había
+atacado de frente: 1,200 baches en la cabecera municipal, 400 fugas
+de agua, 70 rejillas pluviales en mal estado, 18 kilómetros de canales
+pluviales azolvados, 66% de la red de drenaje colapsada, 40 kilómetros
+de red hidrosanitaria fuera de operación, 15 de los 16 cárcamos sin
+funcionar —afectando a casi 90 mil personas cada día en zona urbana—,
+90 kilómetros de caminos rurales sin mantenimiento y 120 presas de
+captación de agua abandonadas en las comunidades.
+
+Pero no vinimos a culpar a los del pasado. Vinimos a actuar.
+
+Por eso creamos la Coordinación de Agua y Drenaje dentro de la
+Dirección de Obras Públicas.
+
+En estos cien días atendimos 59 fugas de agua en 27 colonias y
+realizamos 125 trabajos de desazolve.
+
+► [CAMBIAR A SLIDE 31 — B09-S1 · AGUA Y SANEAMIENTO (59 · 27 · 125)]
+  (Al mencionar "59 fugas de agua", "27 colonias" o "125 trabajos".)
+
+Además trabajamos en la limpieza de canales pluviales en lugares
+inaccesibles —esto solo pudo haber sido posible gracias a la Secretaría
+de Marina y SEDENA— interviniendo más de 19,000 metros de tubería
+de drenaje, retirando 705 metros cúbicos de residuos.
+
+En vialidades hicimos 141 acciones de bacheo, con más de 695 metros
+cuadrados intervenidos con concreto de mayor durabilidad.
+
+► [CAMBIAR A SLIDE 32 — B09-S2 · DRENAJE Y BACHEO (19,000 M · 141)]
+  (Al mencionar "19,000 metros de tubería" o "141 acciones de bacheo".)
+
+Y no nos quedamos solo en lo urgente. Activamos una red de gestiones
+estratégicas:
+
+Gestionamos con SEDARPA una excavadora para habilitar 30 presas
+de captación de agua en comunidades.
+
+Recibimos donaciones importantes de 100 lámparas solares y 30
+contenedores de basura por un valor conjunto de $1,200,000 pesos
+a través de KIMEX.
+
+La Fundación Corazón Urbano ya aplicó 12,000 m² de pintura en
+fachadas, parques y mercados.
+
+► [CAMBIAR A SLIDE 33 — B09-S3 · OBRAS E INVERSIÓN (30 · 12,000 m² · $1.2 MDP)]
+  (Al mencionar "30 presas", "12,000 m²" o "$1,200,000 pesos".)
+
+Gestionamos con CFE Social 4.8 km de guarniciones y banquetas en
+San Antonio por 8.8 millones de pesos. Avanzamos con SEDATU en la
+construcción de dos canchas de pasto sintético.
+
+· [MANTENER SLIDE ACTUAL]
+
+Un gobierno que hace las cosas bien, también es un gobierno gestor,
+capaz de generar confianza para atraer inversión.
+
+Estas son las obras que la gente necesita todos los días: agua que llegue
+a casa, calles que no se inunden y drenajes que funcionen. En cien días
+estamos cumpliendo lo que prometimos.
+
+Y apenas viene la obra pública.
+
+[FIN BLOQUE 9]
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BLOQUE 10 — EMBELLECIMIENTO Y ORDEN URBANO
+"Una ciudad más limpia, ordenada y digna"
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► [CAMBIAR A SLIDE 34 — B10 Portada "EMBELLECIMIENTO Y ORDEN URBANO"]
+  (Al iniciar el Bloque 10.)
+
+Una ciudad que se ve bien, se vive mejor.
+
+Por eso, en estos cien días impulsamos el embellecimiento y el
+ordenamiento urbano como parte fundamental de nuestra visión de Tuxpan.
+
+· [MANTENER SLIDE ACTUAL]
+
+Durante Semana Santa, uno de los momentos de mayor actividad
+económica y turística, asumimos con responsabilidad el reto de ordenar,
+fortalecer y dignificar la actividad comercial.
+
+Reubicamos vendedores en 18 carpas exclusivas, regularizamos el
+Mercado Ambulante y logramos su inauguración formal. Coordinamos
+el FaroFest 2026 con orden y profesionalismo.
+
+Dimos un paso firme hacia un objetivo mayor: avanzar en la liberación
+del primer cuadro de la ciudad del comercio ambulante.
+
+Realizamos un trabajo histórico de balizamiento: más de 70,630 metros
+lineales pintados en Avenida Juárez y el Boulevard, con cajones para
+particulares, discapacidad, motocicletas, guarniciones amarillas, pasos
+peatonales y topes.
+
+► [CAMBIAR A SLIDE 35 — B10-S1 · ORDEN URBANO (14 KM · +70,630 ML · 1 Mercado · 18 Carpas)]
+  (Al mencionar "18 carpas", "70,630 metros" o "14 kilómetros de bulevar".)
+
+Desde Oficialía Mayor rehabilitamos la fuente del Parque Reforma,
+5.5 kilómetros de barandal en el boulevard, el paso de lancha frente
+a Presidencia y el estanque terapéutico del CRRI. Instalamos las letras
+monumentales de Tuxpan en algunos de los sitios más emblemáticos.
+
+· [MANTENER SLIDE ACTUAL]
+
+Estas acciones no son cosméticas. Son parte de una estrategia integral
+para recuperar espacios públicos, fortalecer la identidad tuxpeña y
+proyectar a Tuxpan como un destino atractivo, ordenado y competitivo.
+
+Porque cuando una ciudad se ve limpia, ordenada y bien cuidada, la
+gente se siente orgullosa, los visitantes regresan y la economía se activa.
+
+Eso es lo que estamos construyendo: un Tuxpan más bello, más digno
+y donde las cosas se hacen BIEN.
+
+[FIN BLOQUE 10 — FIN DE LA PRESENTACIÓN]
+
+
+╔═══════════════════════════════════════════════════════════════════════
+║  PARTE 2 — TABLA RESUMEN
+╚═══════════════════════════════════════════════════════════════════════
+
+SLIDE │ DESCRIPCIÓN (sitio web)                          │ FRAGMENTO DEL DISCURSO (cue de cambio)                    │ MOMENTO EXACTO DEL CAMBIO                         │ OBSERVACIONES
+──────┼──────────────────────────────────────────────────┼───────────────────────────────────────────────────────────┼───────────────────────────────────────────────────┼──────────────────────────────────────────────
+  1   │ B01 · Portada LO QUE ENCONTRAMOS                 │ Apertura del evento / primeras palabras                   │ Antes de que el orador inicie el Bloque 1         │ Slide único del B1. "Entra Infografía 1" = ya está, no avanzar.
+  2   │ B02 · Portada ASISTENCIA SOCIAL                  │ "En este gobierno entendemos algo muy simple..."          │ Al iniciar el Bloque 2                            │ —
+  3   │ B02-S1 · SALUD EN CASA (+2,500 · 2,100 · 395)   │ "El DIF no se quedó esperando... los números lo demuestran"│ Cue exacto: "Entra Infografía 2A."               │ Cue explícito en el PDF del discurso
+  4   │ B02-S2 · ATENCIÓN COMUNITARIA (4,000 · 45 · 157)│ "45 comunidades y colonias... 157 parejas"                │ Al mencionar "45 comunidades" o "157 parejas"     │ —
+  5   │ B02-S3 · CAPACITACIÓN (50 · 1,289 · +2,500)     │ "50 talleres de capacitación... 1,289 personas"           │ Al mencionar "50 talleres" o "1,289 personas"     │ —
+  6   │ B02-S4 · DESAYUNOS ESCOLARES (646,162 · 131)     │ "646,162 desayunos calientes en 131 escuelas"             │ Al mencionar "646,162 desayunos"                  │ —
+  7   │ B02-S5 · ATENCIÓN A LA MUJER (4,300 · 1,400)    │ "4,300 atenciones... 1,400 servicios..."                  │ Cue exacto: "Entra Infografía 2B."                │ Cue explícito en el PDF del discurso
+  8   │ B03 · Portada TU CIUDAD, MEJOR                   │ Inicio del Bloque 3                                       │ Al iniciar el Bloque 3                            │ Se muestra muy brevemente; avanzar al Slide 9 casi de inmediato
+  9   │ B03-S1 · ALUMBRADO PÚBLICO (3,282 · 630)        │ "reparamos 3,282 luminarias... 630 nuevas luminarias"     │ Al decir "3,282 luminarias"                       │ —
+ 10   │ B03-S2 · ELECTRIFICACIÓN RURAL (400 · 67 · 75)  │ "400 luminarias del boulevard... 67 comunidades"          │ Al mencionar "400 luminarias" o "67 comunidades"  │ Incluye historia de El Sacrificio (75 luminarias, 550 personas)
+ 11   │ B03-S3 · INFRAESTRUCTURA (550 · 1.5 KM · 17·84) │ "1.5 kilómetros... 17 camiones... 84 rutas"               │ Al mencionar "1.5 km" o "17 camiones"             │ —
+ 12   │ B03-S4 · ESPACIOS PÚBLICOS (90 · 105 KM · 29)   │ "imagen de Tuxpan... 105 kilómetros de camellones"        │ Cue exacto: "Entra Infografía 3."                 │ Cue explícito en el PDF del discurso
+ 13   │ B04 · Portada IDENTIDAD Y FUTURO                 │ Inicio del Bloque 4                                       │ Al iniciar el Bloque 4                            │ —
+ 14   │ B04-S1 · INFRAESTRUCTURA EDUCATIVA (29 · 12·560)│ "29 planteles... 12 escrituración... 560 alumnos"         │ Al mencionar "29 planteles"                       │ —
+ 15   │ B04-S2 · EDUCACIÓN Y CULTURA (918 · 82 · 540·900│ "918 alumnos... 82 profesores... 540... 900 personas"     │ Al mencionar "918" o "82 profesores"              │ —
+ 16   │ B04-S3 · JUVENTUD (133 · 120 Tarjeta Juventux)  │ "talleres... 133 alumnos... Tarjeta Juventux..."          │ Cue exacto: "Entra Infografía 4."                 │ Cue explícito en el PDF del discurso
+ 17   │ B04-S4 · ECONOMÍA LOCAL (25 · 85 · +350)        │ "25 comercios afiliados... 85 jóvenes... 350 jóvenes"     │ Al mencionar "25 comercios" o "85 jóvenes"        │ Mantener durante "Entra Video 4." (video externo)
+ 18   │ B05 · Portada SEGURIDAD Y CONFIANZA              │ Inicio del Bloque 5                                       │ Al iniciar el Bloque 5                            │ El discurso tiene varios párrafos de contexto antes de las cifras
+ 19   │ B05-S1 · PREVENCIÓN ESCOLAR (35 · 2,431 · 14)   │ "35 planteles educativos... 2,431 alumnas y alumnos"      │ Al mencionar "35 planteles" o "2,431 alumnos"     │ —
+ 20   │ B05-S2 · PATRULLAJE Y RESPUESTA (11 · 214 · 1,694│ "11 patrullas... 214 detenciones... 1,694 reportes"      │ Al mencionar "214 detenciones" o "1,694 reportes" │ El discurso menciona "recibimos 3, hoy tenemos 11" — avanzar al llegar al 11
+ 21   │ B05-S3 · OPERATIVOS Y CULTURA VIAL (65 · 743·4,3│ "743 operativos... 4,300 estudiantes en cultura vial"    │ Al mencionar "743 operativos" o "4,300 estudiantes│ Slide 21 también cubre la Policía de Género (65 auxilios)
+ 22   │ B06 · Portada TUXPAN COMPITE, DEPORTE            │ Inicio del Bloque 6                                       │ Al iniciar el Bloque 6                            │ —
+ 23   │ B06-S1 · DEPORTE COMPETITIVO (375 · 15 · 44)    │ "375 atletas... 44 medallas de oro. ¡Récord histórico!"   │ Cue exacto: "Entra Infografía 6."                 │ Cue explícito. Mantener durante "Entra Video 6." (video externo)
+ 24   │ B07 · Portada TUXPAN AL MUNDO                    │ Sin discurso asignado                                     │ Avance manual — transición entre bloques          │ ⚠ No hay PDF de discurso para B07
+ 25   │ B07-S1 · SECTOR TURÍSTICO (60+ · 5 · 12)        │ Sin discurso asignado                                     │ Avance manual libre                               │ ⚠ Sin narración. Presentación visual.
+ 26   │ B07-S2 · PROMOCIÓN TURÍSTICA (80 · 1)            │ Sin discurso asignado                                     │ Avance manual libre                               │ ⚠ Sin narración. Presentación visual.
+ 27   │ B07-S3 · OCUPACIÓN HOTELERA (98% · 2,573)        │ Sin discurso asignado                                     │ Avance manual libre                               │ ⚠ Sin narración. Presentación visual.
+ 28   │ B08 · Portada GOBIERNO CERCANO                   │ Inicio del Bloque 8                                       │ Al iniciar el Bloque 8                            │ —
+ 29   │ B08-S1 · PARTICIPACIÓN CIUDADANA (45 · 60 · 1,200│ "45 jornadas comunitarias... 60 Jefes de Manzana"        │ Al mencionar "45 jornadas" o "60 Jefes de Manzana"│ El slide contiene 6 cifras; el discurso las menciona a lo largo de varios párrafos
+ 30   │ B09 · Portada OBRA PÚBLICA                       │ Inicio del Bloque 9                                       │ Al iniciar el Bloque 9                            │ El discurso tiene ~1 página de contexto antes de las cifras de acción
+ 31   │ B09-S1 · AGUA Y SANEAMIENTO (59 · 27 · 125)     │ "59 fugas de agua en 27 colonias... 125 trabajos"         │ Al mencionar "59 fugas" o "27 colonias"            │ —
+ 32   │ B09-S2 · DRENAJE Y BACHEO (19,000 M · 141)       │ "19,000 metros de tubería... 141 acciones de bacheo"      │ Al mencionar "19,000 metros" o "141 acciones"     │ —
+ 33   │ B09-S3 · OBRAS E INVERSIÓN (30 · 12,000 m² · $1.2│ "30 presas... 12,000 m²... $1,200,000 pesos"            │ Al mencionar "30 presas" o "$1,200,000"           │ —
+ 34   │ B10 · Portada EMBELLECIMIENTO Y ORDEN URBANO     │ Inicio del Bloque 10                                      │ Al iniciar el Bloque 10                           │ —
+ 35   │ B10-S1 · ORDEN URBANO (14 KM · +70,630 · 1 · 18)│ "18 carpas... 70,630 metros lineales... 14 kilómetros"   │ Al mencionar "18 carpas" o "70,630 metros"        │ Último slide de la presentación
+
+
+═══════════════════════════════════════════════════════════════════════
+  NOTAS FINALES DE OPERACIÓN
+═══════════════════════════════════════════════════════════════════════
+
+1. BLOQUE 7 NO TIENE DISCURSO PDF. Los slides 24–27 se presentan
+   visualmente. El conductor del evento decide el ritmo.
+
+2. BLOQUE 5 (Seguridad) tiene una introducción larga (aprox. 6 párrafos)
+   antes de la primera cifra. Mantener portada B05 (Slide 18) durante
+   toda esa sección introductoria.
+
+3. VIDEOS EXTERNOS: "Entra Video 4" y "Entra Video 6" son reproductions
+   de video fuera del sitio web. Mantener Slides 17 y 23 respectivamente
+   mientras dura cada video.
+
+4. TOTAL DE CAMBIOS DE SLIDE: 35 cambios manuales
+   - 8 son portadas de bloque (al iniciar cada bloque)
+   - 2 son cues explícitos con frase "Entra Infografía X" en el discurso
+     (B2A → Slide 3 · B2B → Slide 7 · B3 → Slide 12 · B4 → Slide 16 · B6 → Slide 23)
+   - El resto son cues implícitos por aparición de cifras clave
+   - 4 slides de B07 son avance libre (sin discurso)
+
+═══════════════════════════════════════════════════════════════════════
+  Generado: 17 de abril de 2026
+  Fuente slides: sitio web 35 slides activos (index.html)
+  Fuente discurso: carpeta BLOQUES — 9 PDFs (B1·B2·B3·B4·B5·B6·B8·B9·B10)
+═══════════════════════════════════════════════════════════════════════

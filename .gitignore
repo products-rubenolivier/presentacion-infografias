@@ -1,4 +1,5 @@
 node_modules/
 .claude/
-*.pdf
+100-Dias-Tuxpan.pdf
 package_tmp.json
+build-slides.py
