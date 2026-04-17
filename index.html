@@ -55,7 +55,7 @@ html, body { width:100%; height:100%; overflow:hidden; background:#0e0e0e; }
 /* ─── TRACK ───────────────────────────────────── */
 #track {
   display: flex;
-  width: calc(1920px * 30);
+  width: calc(1920px * 31);
   height: 1080px;
   transition: transform .72s cubic-bezier(.77,0,.18,1);
   will-change: transform;
@@ -488,9 +488,19 @@ body.is-fullscreen.hide-cursor #btn-fs {
 
 
 <!-- ════════════════════════════════════════════════
-     PORTADA BLOQUE 2 — ASISTENCIA SOCIAL
+     PORTADA BLOQUE 1 — LO QUE ENCONTRAMOS
 ════════════════════════════════════════════════ -->
 <div class="slide s-block active">
+  <div class="block-eyebrow">BLOQUE 01</div>
+  <div class="block-rule"></div>
+  <div class="block-title fade-up">LO QUE ENCONTRAMOS.<br>LO QUE CONSTRUIMOS.</div>
+</div>
+
+
+<!-- ════════════════════════════════════════════════
+     PORTADA BLOQUE 2 — ASISTENCIA SOCIAL
+════════════════════════════════════════════════ -->
+<div class="slide s-block">
   <div class="block-eyebrow">BLOQUE 02</div>
   <div class="block-rule"></div>
   <div class="block-title fade-up">ASISTENCIA SOCIAL<br>Y ATENCIÓN A GRUPOS<br>VULNERABLES</div>
@@ -1341,7 +1351,7 @@ body.is-fullscreen.hide-cursor #btn-fs {
 </button>
 
 <script>
-const TOTAL   = 30;
+const TOTAL   = 31;
 let cur       = 0;
 let animating = false;
 
