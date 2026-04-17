@@ -55,7 +55,7 @@ html, body { width:100%; height:100%; overflow:hidden; background:#0e0e0e; }
 /* ─── TRACK ───────────────────────────────────── */
 #track {
   display: flex;
-  width: calc(1920px * 21);
+  width: calc(1920px * 20);
   height: 1080px;
   transition: transform .72s cubic-bezier(.77,0,.18,1);
   will-change: transform;
@@ -488,63 +488,9 @@ body.is-fullscreen.hide-cursor #btn-fs {
 
 
 <!-- ════════════════════════════════════════════════
-     SLIDE 1 · PORTADA
-════════════════════════════════════════════════ -->
-<div class="slide s-cover active">
-  <svg class="wm" style="opacity:.1;filter:brightness(1.6)"
-    viewBox="0 0 200 240" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-    <path d="M100 6 L194 34 L194 118 Q194 200 100 234 Q6 200 6 118 L6 34 Z" fill="white" opacity=".18"/>
-    <path d="M100 22 L178 44 L178 116 Q178 185 100 215 Q22 185 22 116 L22 44 Z"
-      fill="none" stroke="white" stroke-width="2" opacity=".35"/>
-    <path d="M65 148 L65 104 L100 76 L135 104 L135 148 Z"
-      fill="none" stroke="white" stroke-width="4" opacity=".45"/>
-    <path d="M83 148 L83 120 L117 120 L117 148"
-      fill="none" stroke="white" stroke-width="4" opacity=".45"/>
-    <path d="M55 165 Q78 154 100 165 Q122 176 145 165"
-      fill="none" stroke="white" stroke-width="4" opacity=".45"/>
-    <path d="M55 182 Q78 171 100 182 Q122 193 145 182"
-      fill="none" stroke="white" stroke-width="4" opacity=".45"/>
-  </svg>
-
-  <!-- Logo placeholder -->
-  <div class="cover-logo">
-    <svg width="260" height="100" viewBox="0 0 260 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M46 6 L84 19 L84 54 Q84 82 46 94 Q8 82 8 54 L8 19 Z"
-        fill="rgba(255,255,255,.12)" stroke="rgba(255,255,255,.45)" stroke-width="2"/>
-      <path d="M46 20 L72 30 L72 53 Q72 72 46 81 Q20 72 20 53 L20 30 Z"
-        fill="none" stroke="rgba(255,255,255,.25)" stroke-width="1.5"/>
-      <path d="M34 60 L34 43 L46 33 L58 43 L58 60 Z"
-        fill="none" stroke="white" stroke-width="2.5" opacity=".88"/>
-      <path d="M38 60 L38 50 L54 50 L54 60"
-        fill="none" stroke="white" stroke-width="2.5" opacity=".88"/>
-      <path d="M26 68 Q36 61 46 68 Q56 75 66 68"
-        fill="none" stroke="white" stroke-width="2" opacity=".65"/>
-      <rect x="96" y="4" width="2" height="90" fill="rgba(255,255,255,.18)"/>
-      <text x="108" y="42" fill="white"
-        font-family="Encode Sans, sans-serif" font-weight="900"
-        font-size="33" letter-spacing="2">TUXPAN</text>
-      <text x="108" y="62" fill="rgba(255,255,255,.6)"
-        font-family="Encode Sans, sans-serif" font-weight="600"
-        font-size="13" letter-spacing="1.5">GOBIERNO MUNICIPAL 2026–2029</text>
-      <text x="108" y="80" fill="#D4AA7A"
-        font-family="Encode Sans, sans-serif" font-weight="700"
-        font-size="14">¡Hagamos las cosas BIEN!</text>
-    </svg>
-  </div>
-
-  <div class="cover-body">
-    <div class="cover-t1">CIEN DÍAS</div>
-    <div class="cover-t2">DE ACCIÓN</div>
-  </div>
-  <div class="cover-rule"></div>
-  <div class="cover-sub">H. Ayuntamiento de Tuxpan, Veracruz 2026–2029</div>
-</div>
-
-
-<!-- ════════════════════════════════════════════════
      PORTADA BLOQUE 2 — ASISTENCIA SOCIAL
 ════════════════════════════════════════════════ -->
-<div class="slide s-block">
+<div class="slide s-block active">
   <div class="block-eyebrow">BLOQUE 02</div>
   <div class="block-rule"></div>
   <div class="block-title fade-up">ASISTENCIA SOCIAL<br>Y ATENCIÓN A GRUPOS<br>VULNERABLES</div>
@@ -1150,7 +1096,7 @@ body.is-fullscreen.hide-cursor #btn-fs {
 </button>
 
 <script>
-const TOTAL   = 21;
+const TOTAL   = 20;
 let cur       = 0;
 let animating = false;
 
