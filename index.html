@@ -381,6 +381,12 @@ html, body { width:100%; height:100%; overflow:hidden; background:#0e0e0e; }
 /* ════════════════════════════════════════════════
    LAYOUTS MULTI-STAT
 ════════════════════════════════════════════════ */
+/* 1 stat centrado */
+.data-row.stats-1 { justify-content: center; }
+.data-row.stats-1 .stat { flex: 0 0 auto; }
+.data-row.stats-1 .stat-num { font-size: 160px; }
+.data-row.stats-1 .stat-lbl { font-size: 34px; }
+
 /* 2 stats en fila */
 .data-row.stats-2 { gap: 100px; }
 .data-row.stats-2 .stat { flex: 1; }
@@ -403,6 +409,12 @@ html, body { width:100%; height:100%; overflow:hidden; background:#0e0e0e; }
 .data-row.stats-4 .stat { flex: 0 0 calc(50% - 40px); }
 .data-row.stats-4 .stat-num { font-size: 110px; }
 .data-row.stats-4 .stat-lbl { font-size: 28px; }
+
+/* 5 stats: 3+2 */
+.data-row.stats-5 { flex-wrap: wrap; gap: 16px 60px; justify-content: center; align-content: center; }
+.data-row.stats-5 .stat { flex: 0 0 calc(33.33% - 40px); }
+.data-row.stats-5 .stat-num { font-size: 96px; }
+.data-row.stats-5 .stat-lbl { font-size: 26px; }
 
 /* 6 stats: 2×3 */
 .data-row.stats-6 {
@@ -651,7 +663,7 @@ body.is-fullscreen.hide-cursor #btn-fs {
 <!-- B2 · SLIDE 5 — ATENCIÓN A LA MUJER -->
 <div class="slide s-content">
   <span class="badge">100 DÍAS</span>
-  <div class="topic fade-up">ATENCIÓN A LA MUJER</div>
+  <div class="topic fade-up">CRII, DIF E INSTITUTO DE LA MUJER</div>
   <div class="data-row stats-4">
     <div class="stat fade-up" style="transition-delay:.10s">
       <div class="stat-vbar"></div>
@@ -683,7 +695,7 @@ body.is-fullscreen.hide-cursor #btn-fs {
     </div>
   </div>
   <div class="footer">
-    <div class="footer-title">Apoyo integral a las mujeres del municipio.</div>
+    <div class="footer-title">Atención, protección y desarrollo para las familias de Tuxpan.</div>
     <div class="footer-inst">H. Ayuntamiento de Tuxpan, Veracruz 2026–2029</div>
   </div>
 </div>
@@ -742,7 +754,7 @@ body.is-fullscreen.hide-cursor #btn-fs {
 <div class="slide s-content">
   <span class="badge">100 DÍAS</span>
   <div class="topic fade-up">ELECTRIFICACIÓN RURAL</div>
-  <div class="data-row stats-2">
+  <div class="data-row stats-4">
     <div class="stat fade-up" style="transition-delay:.10s">
       <div class="stat-vbar"></div>
       <div class="stat-inner">
@@ -750,11 +762,25 @@ body.is-fullscreen.hide-cursor #btn-fs {
         <div class="stat-lbl">Comunidades<br>Beneficiadas.</div>
       </div>
     </div>
-    <div class="stat fade-up" style="transition-delay:.30s">
+    <div class="stat fade-up" style="transition-delay:.20s">
       <div class="stat-vbar"></div>
       <div class="stat-inner">
         <div class="stat-num" data-target="75">0</div>
         <div class="stat-lbl">Luminarias<br>Adicionales.</div>
+      </div>
+    </div>
+    <div class="stat fade-up" style="transition-delay:.30s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num" data-target="550">0</div>
+        <div class="stat-lbl">Personas con<br>Acceso a Luz.</div>
+      </div>
+    </div>
+    <div class="stat fade-up" style="transition-delay:.40s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num">1.5 KM</div>
+        <div class="stat-lbl">Tramos<br>Iluminados.</div>
       </div>
     </div>
   </div>
@@ -769,29 +795,15 @@ body.is-fullscreen.hide-cursor #btn-fs {
 <div class="slide s-content">
   <span class="badge">100 DÍAS</span>
   <div class="topic fade-up">INFRAESTRUCTURA Y RECOLECCIÓN</div>
-  <div class="data-row stats-4">
+  <div class="data-row stats-2">
     <div class="stat fade-up" style="transition-delay:.10s">
-      <div class="stat-vbar"></div>
-      <div class="stat-inner">
-        <div class="stat-num" data-target="550">0</div>
-        <div class="stat-lbl">Personas con<br>Acceso a Luz.</div>
-      </div>
-    </div>
-    <div class="stat fade-up" style="transition-delay:.20s">
-      <div class="stat-vbar"></div>
-      <div class="stat-inner">
-        <div class="stat-num">1.5 KM</div>
-        <div class="stat-lbl">Tramos<br>Iluminados.</div>
-      </div>
-    </div>
-    <div class="stat fade-up" style="transition-delay:.30s">
       <div class="stat-vbar"></div>
       <div class="stat-inner">
         <div class="stat-num" data-target="17">0</div>
         <div class="stat-lbl">Camiones de<br>Recolección.</div>
       </div>
     </div>
-    <div class="stat fade-up" style="transition-delay:.40s">
+    <div class="stat fade-up" style="transition-delay:.20s">
       <div class="stat-vbar"></div>
       <div class="stat-inner">
         <div class="stat-num" data-target="84">0</div>
@@ -814,27 +826,27 @@ body.is-fullscreen.hide-cursor #btn-fs {
     <div class="stat fade-up" style="transition-delay:.10s">
       <div class="stat-vbar"></div>
       <div class="stat-inner">
-        <div class="stat-num" data-target="90">0</div>
-        <div class="stat-lbl">Contenedores<br>Instalados.</div>
+        <div class="stat-num" data-target="15">0</div>
+        <div class="stat-lbl">Parques<br>Intervenidos.</div>
       </div>
     </div>
     <div class="stat fade-up" style="transition-delay:.20s">
       <div class="stat-vbar"></div>
       <div class="stat-inner">
-        <div class="stat-num">105 KM</div>
-        <div class="stat-lbl">Camellones<br>Atendidos.</div>
+        <div class="stat-num" data-target="9">0</div>
+        <div class="stat-lbl">Jardineras<br>Rehabilitadas.</div>
       </div>
     </div>
     <div class="stat fade-up" style="transition-delay:.30s">
       <div class="stat-vbar"></div>
       <div class="stat-inner">
-        <div class="stat-num" data-target="29">0</div>
-        <div class="stat-lbl">Espacios Públicos<br>Intervenidos.</div>
+        <div class="stat-num" data-target="5">0</div>
+        <div class="stat-lbl">Áreas Verdes<br>Recuperadas.</div>
       </div>
     </div>
   </div>
   <div class="footer">
-    <div class="footer-title">Ciudad más limpia, ordenada y habitable.</div>
+    <div class="footer-title">Espacios públicos dignos para las familias de Tuxpan.</div>
     <div class="footer-inst">H. Ayuntamiento de Tuxpan, Veracruz 2026–2029</div>
   </div>
 </div>
@@ -852,7 +864,7 @@ body.is-fullscreen.hide-cursor #btn-fs {
 <div class="slide s-content">
   <span class="badge">100 DÍAS</span>
   <div class="topic fade-up">INFRAESTRUCTURA EDUCATIVA</div>
-  <div class="data-row stats-3">
+  <div class="data-row stats-2">
     <div class="stat fade-up" style="transition-delay:.10s">
       <div class="stat-vbar"></div>
       <div class="stat-inner">
@@ -867,13 +879,6 @@ body.is-fullscreen.hide-cursor #btn-fs {
         <div class="stat-lbl">En Proceso de<br>Escrituración.</div>
       </div>
     </div>
-    <div class="stat fade-up" style="transition-delay:.30s">
-      <div class="stat-vbar"></div>
-      <div class="stat-inner">
-        <div class="stat-num" data-target="560">0</div>
-        <div class="stat-lbl">Alumnos<br>Beneficiados.</div>
-      </div>
-    </div>
   </div>
   <div class="footer">
     <div class="footer-title">Regularizando y fortaleciendo la infraestructura educativa.</div>
@@ -886,7 +891,7 @@ body.is-fullscreen.hide-cursor #btn-fs {
 <div class="slide s-content">
   <span class="badge">100 DÍAS</span>
   <div class="topic fade-up">EDUCACIÓN Y CULTURA</div>
-  <div class="data-row stats-4">
+  <div class="data-row stats-5">
     <div class="stat fade-up" style="transition-delay:.10s">
       <div class="stat-vbar"></div>
       <div class="stat-inner">
@@ -911,8 +916,15 @@ body.is-fullscreen.hide-cursor #btn-fs {
     <div class="stat fade-up" style="transition-delay:.40s">
       <div class="stat-vbar"></div>
       <div class="stat-inner">
-        <div class="stat-num" data-target="900">0</div>
-        <div class="stat-lbl">Participantes en<br>Actividades Culturales.</div>
+        <div class="stat-num" style="font-size:52px;line-height:1.1">Primera Feria<br>Profesiográfica</div>
+        <div class="stat-lbl">Realizada en<br>el Municipio.</div>
+      </div>
+    </div>
+    <div class="stat fade-up" style="transition-delay:.50s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num" data-target="560">0</div>
+        <div class="stat-lbl">Alumnos<br>Beneficiados.</div>
       </div>
     </div>
   </div>
@@ -923,38 +935,12 @@ body.is-fullscreen.hide-cursor #btn-fs {
 </div>
 
 
-<!-- B4 · SLIDE 3 — JUVENTUD -->
-<div class="slide s-content">
-  <span class="badge">100 DÍAS</span>
-  <div class="topic fade-up">JUVENTUD</div>
-  <div class="data-row stats-2">
-    <div class="stat fade-up" style="transition-delay:.10s">
-      <div class="stat-vbar"></div>
-      <div class="stat-inner">
-        <div class="stat-num" data-target="133">0</div>
-        <div class="stat-lbl">Alumnos en<br>Talleres.</div>
-      </div>
-    </div>
-    <div class="stat fade-up" style="transition-delay:.20s">
-      <div class="stat-vbar"></div>
-      <div class="stat-inner">
-        <div class="stat-num" data-target="120">0</div>
-        <div class="stat-lbl">Jóvenes con<br>Tarjeta JUVENTUX.</div>
-      </div>
-    </div>
-  </div>
-  <div class="footer">
-    <div class="footer-title">Jóvenes con oportunidades y futuro.</div>
-    <div class="footer-inst">H. Ayuntamiento de Tuxpan, Veracruz 2026–2029</div>
-  </div>
-</div>
-
 
 <!-- B4 · SLIDE 4 — ECONOMÍA LOCAL -->
 <div class="slide s-content">
   <span class="badge">100 DÍAS</span>
-  <div class="topic fade-up">ECONOMÍA LOCAL</div>
-  <div class="data-row stats-3">
+  <div class="topic fade-up">ECONOMÍA LOCAL Y JUVENTUD</div>
+  <div class="data-row stats-4">
     <div class="stat fade-up" style="transition-delay:.10s">
       <div class="stat-vbar"></div>
       <div class="stat-inner">
@@ -976,9 +962,16 @@ body.is-fullscreen.hide-cursor #btn-fs {
         <div class="stat-lbl">Asistentes<br>a Foro.</div>
       </div>
     </div>
+    <div class="stat fade-up" style="transition-delay:.40s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num" data-target="120">0</div>
+        <div class="stat-lbl">Jóvenes con<br>Tarjeta JUVENTUX.</div>
+      </div>
+    </div>
   </div>
   <div class="footer">
-    <div class="footer-title">Dinamizando la economía local desde el primer día.</div>
+    <div class="footer-title">Economía activa y jóvenes con oportunidades en Tuxpan.</div>
     <div class="footer-inst">H. Ayuntamiento de Tuxpan, Veracruz 2026–2029</div>
   </div>
 </div>
