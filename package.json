@@ -1,0 +1,8 @@
+{
+  "name": "infografias-100-dias",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "puppeteer": "^24.41.0"
+  }
+}

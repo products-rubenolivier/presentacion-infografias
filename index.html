@@ -1,0 +1,1290 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>100 Días — Tuxpan 2026-2029</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;600;700;800;900&family=Montserrat:wght@700;900&family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,700,1,0&display=swap" rel="stylesheet">
+<style>
+  .material-symbols-rounded {
+    font-family: 'Material Symbols Rounded';
+    font-style: normal; font-weight: normal;
+    font-variation-settings: 'FILL' 1, 'wght' 700, 'GRAD' 0, 'opsz' 48;
+    display: inline-block; line-height: 1;
+    text-transform: none; white-space: nowrap;
+    -webkit-font-smoothing: antialiased;
+  }
+</style>
+<style>
+
+/* ─── TOKENS ──────────────────────────────────── */
+:root {
+  --burgundy:  #7A1028;
+  --gold:      #C4905A;
+  --gold-mid:  #D4AA7A;
+  --gold-pale: #E8CFA0;
+  --bg:        #FFFFFF;
+  --gray-num:  #9B9B9B;
+  --charcoal:  #3D3D3D;
+  --gray-inst: #808080;
+  --white:     #FFFFFF;
+}
+
+/* ─── RESET ───────────────────────────────────── */
+*, *::before, *::after { margin:0; padding:0; box-sizing:border-box; }
+html, body { width:100%; height:100%; overflow:hidden; background:#0e0e0e; }
+
+/* ─── WRAPPER — fixed, fills viewport ────────── */
+#wrapper {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  background: #0e0e0e;
+}
+
+/* ─── SCALER — 1920×1080, JS centers it ──────── */
+#scaler {
+  position: absolute;
+  top: 0; left: 0;
+  width: 1920px;
+  height: 1080px;
+  transform-origin: top left;
+  overflow: hidden;
+}
+
+/* ─── TRACK ───────────────────────────────────── */
+#track {
+  display: flex;
+  width: calc(1920px * 21);
+  height: 1080px;
+  transition: transform .72s cubic-bezier(.77,0,.18,1);
+  will-change: transform;
+}
+
+/* ─── SLIDE BASE ──────────────────────────────── */
+.slide {
+  position: relative;
+  width: 1920px;
+  height: 1080px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+/* ─── WATERMARK SVG — eliminado ──────────────── */
+.wm { display: none; }
+
+/* ─── TEXTURA DE FONDO ────────────────────────── */
+
+/* Slides de contenido (fondo blanco):
+   multiply hace que el patrón gris oscurezca sutilmente el blanco */
+.s-content::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: url('TEXTURA FONDO.png') center / cover no-repeat;
+  opacity: .55;
+  mix-blend-mode: multiply;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Portada (fondo burgundy oscuro):
+   screen hace que el patrón aparezca como luz sobre el oscuro */
+.s-cover::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: url('TEXTURA FONDO.png') center / cover no-repeat;
+  opacity: .22;
+  mix-blend-mode: screen;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Contenido sobre la textura */
+.slide > * {
+  position: relative;
+  z-index: 1;
+}
+
+/* ════════════════════════════════════════════════
+   PORTADA
+════════════════════════════════════════════════ */
+.s-cover {
+  background: radial-gradient(ellipse at 65% 50%, #8E1535 0%, #72102A 55%, #5C0D22 100%);
+  padding: 68px 100px 60px;
+  display: flex;
+  flex-direction: column;
+}
+.cover-logo  { margin-bottom: 0; flex-shrink: 0; }
+.cover-body  {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 12px;
+}
+/* Título línea 1 — blanco, domina el slide */
+.cover-t1 {
+  font-family: 'Encode Sans', sans-serif;
+  font-size: 230px; font-weight: 900;
+  color: var(--white);
+  line-height: 0.88;
+  text-transform: uppercase;
+  white-space: nowrap;
+  letter-spacing: -2px;
+}
+/* Título línea 2 — gold, mismo peso visual */
+.cover-t2 {
+  font-family: 'Encode Sans', sans-serif;
+  font-size: 230px; font-weight: 900;
+  color: var(--gold-mid);
+  line-height: 0.88;
+  text-transform: uppercase;
+  white-space: nowrap;
+  letter-spacing: -2px;
+  margin-top: 10px;
+}
+/* Línea separadora */
+.cover-rule {
+  width: 82%; height: 4px;
+  background: var(--gold);
+  margin: 38px 0 24px;
+}
+/* Subtítulo — bold, ~1/5 del tamaño del título */
+.cover-sub {
+  font-family: 'Encode Sans', sans-serif;
+  font-size: 52px; font-weight: 800;
+  color: var(--white);
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  white-space: nowrap;
+}
+
+/* ════════════════════════════════════════════════
+   CONTENT SLIDE BASE
+════════════════════════════════════════════════ */
+.s-content {
+  background: var(--bg);
+  padding: 58px 100px 48px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Badge */
+.badge {
+  align-self: flex-start;
+  background: var(--gold);
+  color: var(--white);
+  font-family: 'Encode Sans', sans-serif;
+  font-size: 32px; font-weight: 800;
+  letter-spacing: 3px; text-transform: uppercase;
+  padding: 9px 24px; border-radius: 7px;
+  margin-bottom: 30px;
+  white-space: nowrap;
+}
+
+/* Topic title — ONE LINE */
+.topic {
+  font-family: 'Encode Sans', sans-serif;
+  font-size: 90px; font-weight: 900;
+  color: var(--burgundy);
+  text-transform: uppercase;
+  line-height: 1;
+  white-space: nowrap;
+  letter-spacing: -0.5px;
+  margin-bottom: 36px;
+}
+
+/* ── Altura fija compartida por todos los bloques ── */
+:root { --block-h: 220px; }
+
+/* Data row */
+.data-row {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 160px;
+  min-height: 0;
+}
+
+/* Stat block wrapper */
+.stat {
+  display: flex;
+  gap: 32px;
+  align-items: stretch;
+  flex-shrink: 0;
+}
+
+/* Barra vertical: se estira para igualar la altura real del contenido */
+.stat-vbar {
+  width: 12px;
+  flex-shrink: 0;
+  background: var(--gold);
+}
+
+/* Inner: altura determinada por el contenido */
+.stat-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.stat-num {
+  font-family: 'Gotham', 'Montserrat', sans-serif;
+  font-size: 148px; font-weight: 900;
+  color: var(--gray-num);
+  line-height: 1;
+  letter-spacing: -3px;
+  white-space: nowrap;
+}
+.stat-lbl {
+  font-family: 'Gotham', 'Montserrat', sans-serif;
+  font-size: 32px; font-weight: 700;
+  color: var(--charcoal);
+  text-transform: uppercase;
+  line-height: 1.2;
+  letter-spacing: .5px;
+  margin-top: 14px;
+}
+
+/* Icon column: altura determinada por el contenido */
+.icon-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+/* Caja del ícono: ocupa exactamente el espacio del número (148px) */
+.icon-box {
+  height: 148px;
+  display: flex;
+  align-items: center;
+}
+
+.icon-lbl {
+  font-family: 'Gotham', 'Montserrat', sans-serif;
+  font-size: 32px; font-weight: 700;
+  color: var(--charcoal);
+  text-transform: uppercase;
+  line-height: 1.2;
+  letter-spacing: .5px;
+  margin-top: 14px;
+}
+
+/* Footer */
+.footer {
+  border-top: 4px solid var(--gold);
+  padding-top: 18px;
+  margin-top: auto;
+  flex-shrink: 0;
+}
+.footer-title {
+  font-family: 'Encode Sans', sans-serif;
+  font-size: 42px; font-weight: 800;
+  color: var(--charcoal);
+  text-transform: uppercase; letter-spacing: 1px;
+  white-space: nowrap;
+}
+.footer-inst {
+  font-family: 'Encode Sans', sans-serif;
+  font-size: 25px; font-weight: 400;
+  color: var(--gray-inst);
+  text-transform: uppercase; letter-spacing: 2px;
+  margin-top: 4px;
+}
+
+/* ════════════════════════════════════════════════
+   ANIMACIONES
+════════════════════════════════════════════════ */
+
+/* Fade-up */
+.fade-up {
+  opacity: 0; transform: translateY(28px);
+  transition: opacity .55s ease, transform .55s ease;
+}
+.slide.active .fade-up { opacity: 1; transform: translateY(0); }
+
+/* Línea */
+.line-path {
+  stroke-dasharray: 1500; stroke-dashoffset: 1500;
+  transition: stroke-dashoffset 1.6s cubic-bezier(.4,0,.2,1) .3s;
+}
+.slide.active .line-path { stroke-dashoffset: 0; }
+.line-dot { opacity:0; transition: opacity .4s ease 1.7s; }
+.slide.active .line-dot { opacity: 1; }
+
+/* Barras verticales */
+.vbar-anim {
+  transform-origin: bottom center; transform: scaleY(0);
+  transition: transform .85s cubic-bezier(.4,0,.2,1);
+}
+.slide.active .vbar-anim { transform: scaleY(1); }
+
+/* Barra horizontal */
+.hbar-anim {
+  transform-origin: left center; transform: scaleX(0);
+  transition: transform 1s cubic-bezier(.4,0,.2,1) .2s;
+}
+.slide.active .hbar-anim { transform: scaleX(1); }
+
+/* Pie */
+.pie-seg {
+  stroke-dashoffset: 879;
+  transition: stroke-dashoffset 1.2s cubic-bezier(.4,0,.2,1) .3s;
+}
+.slide.active .pie-seg { stroke-dashoffset: var(--pie-offset, 659); }
+
+/* ════════════════════════════════════════════════
+   PORTADA DE BLOQUE
+════════════════════════════════════════════════ */
+.s-block {
+  background: radial-gradient(ellipse at 30% 50%, #8E1535 0%, #72102A 55%, #5C0D22 100%);
+  padding: 80px 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.s-block::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: url('TEXTURA FONDO.png') center / cover no-repeat;
+  opacity: .22;
+  mix-blend-mode: screen;
+  pointer-events: none;
+  z-index: 0;
+}
+.block-eyebrow {
+  font-family: 'Encode Sans', sans-serif;
+  font-size: 30px; font-weight: 800;
+  color: var(--gold);
+  letter-spacing: 5px; text-transform: uppercase;
+  margin-bottom: 28px;
+}
+.block-rule {
+  width: 90px; height: 6px;
+  background: var(--gold);
+  margin-bottom: 48px;
+}
+.block-title {
+  font-family: 'Encode Sans', sans-serif;
+  font-size: 108px; font-weight: 900;
+  color: var(--white);
+  line-height: 1.0;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  max-width: 1600px;
+}
+
+/* ════════════════════════════════════════════════
+   LAYOUTS MULTI-STAT
+════════════════════════════════════════════════ */
+/* 3 stats en fila */
+.data-row.stats-3 { gap: 80px; }
+.data-row.stats-3 .stat { flex: 1; }
+.data-row.stats-3 .stat-num { font-size: 120px; }
+.data-row.stats-3 .stat-lbl { font-size: 28px; }
+
+/* 4 stats: 2×2 */
+.data-row.stats-4 {
+  flex-wrap: wrap;
+  gap: 20px 80px;
+  align-items: flex-start;
+  align-content: center;
+}
+.data-row.stats-4 .stat { flex: 0 0 calc(50% - 40px); }
+.data-row.stats-4 .stat-num { font-size: 110px; }
+.data-row.stats-4 .stat-lbl { font-size: 28px; }
+
+/* 6 stats: 2×3 */
+.data-row.stats-6 {
+  flex-wrap: wrap;
+  gap: 16px 60px;
+  align-items: flex-start;
+  align-content: center;
+}
+.data-row.stats-6 .stat { flex: 0 0 calc(33.333% - 40px); }
+.data-row.stats-6 .stat-num { font-size: 88px; }
+.data-row.stats-6 .stat-lbl { font-size: 24px; margin-top: 10px; }
+.data-row.stats-6 .stat-vbar { width: 10px; }
+
+/* ════════════════════════════════════════════════
+   NAVEGACIÓN UI
+════════════════════════════════════════════════ */
+.nav-btn {
+  position: fixed; top: 50%; transform: translateY(-50%);
+  width: 52px; height: 52px;
+  background: rgba(255,255,255,.12);
+  border: 1.5px solid rgba(255,255,255,.22);
+  border-radius: 50%; cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  z-index: 300; color: rgba(255,255,255,.8); font-size: 20px;
+  transition: background .2s, transform .2s;
+  backdrop-filter: blur(6px);
+}
+.nav-btn:hover { background:rgba(255,255,255,.24); transform:translateY(-50%) scale(1.1); }
+#btn-prev { left: 16px; }
+#btn-next { right: 16px; }
+
+#dots {
+  position: fixed; bottom: 14px; left: 50%; transform: translateX(-50%);
+  display: flex; gap: 8px; z-index: 300;
+}
+.dot {
+  width: 8px; height: 8px; border-radius: 50%;
+  background: rgba(255,255,255,.25); cursor: pointer;
+  transition: background .3s, transform .3s;
+}
+.dot.on { background: rgba(255,255,255,.9); transform: scale(1.4); }
+
+#slide-lbl {
+  position: fixed; bottom: 36px; right: 24px;
+  font-family: 'Encode Sans', sans-serif;
+  font-size: 12px; color: rgba(255,255,255,.3);
+  letter-spacing: 2px; z-index: 300;
+}
+
+/* Botón pantalla completa */
+#btn-fs {
+  position: fixed; top: 16px; right: 16px;
+  width: 44px; height: 44px;
+  background: rgba(255,255,255,.12);
+  border: 1.5px solid rgba(255,255,255,.22);
+  border-radius: 8px; cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  z-index: 300; color: rgba(255,255,255,.75);
+  transition: background .2s, opacity .3s;
+  backdrop-filter: blur(6px);
+}
+#btn-fs:hover { background: rgba(255,255,255,.24); }
+
+/* En pantalla completa: ocultar todos los controles */
+body.is-fullscreen .nav-btn,
+body.is-fullscreen #dots,
+body.is-fullscreen #slide-lbl {
+  opacity: 0;
+  pointer-events: none;
+}
+/* El botón de salir sí se muestra, pero se oculta tras 2s de inactividad */
+body.is-fullscreen #btn-fs {
+  opacity: 1;
+}
+body.is-fullscreen.hide-cursor {
+  cursor: none;
+}
+body.is-fullscreen.hide-cursor #btn-fs {
+  opacity: 0;
+  pointer-events: none;
+}
+
+</style>
+</head>
+<body>
+<div id="wrapper">
+<div id="scaler">
+<div id="track">
+
+
+<!-- ════════════════════════════════════════════════
+     SLIDE 1 · PORTADA
+════════════════════════════════════════════════ -->
+<div class="slide s-cover active">
+  <svg class="wm" style="opacity:.1;filter:brightness(1.6)"
+    viewBox="0 0 200 240" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <path d="M100 6 L194 34 L194 118 Q194 200 100 234 Q6 200 6 118 L6 34 Z" fill="white" opacity=".18"/>
+    <path d="M100 22 L178 44 L178 116 Q178 185 100 215 Q22 185 22 116 L22 44 Z"
+      fill="none" stroke="white" stroke-width="2" opacity=".35"/>
+    <path d="M65 148 L65 104 L100 76 L135 104 L135 148 Z"
+      fill="none" stroke="white" stroke-width="4" opacity=".45"/>
+    <path d="M83 148 L83 120 L117 120 L117 148"
+      fill="none" stroke="white" stroke-width="4" opacity=".45"/>
+    <path d="M55 165 Q78 154 100 165 Q122 176 145 165"
+      fill="none" stroke="white" stroke-width="4" opacity=".45"/>
+    <path d="M55 182 Q78 171 100 182 Q122 193 145 182"
+      fill="none" stroke="white" stroke-width="4" opacity=".45"/>
+  </svg>
+
+  <!-- Logo placeholder -->
+  <div class="cover-logo">
+    <svg width="260" height="100" viewBox="0 0 260 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M46 6 L84 19 L84 54 Q84 82 46 94 Q8 82 8 54 L8 19 Z"
+        fill="rgba(255,255,255,.12)" stroke="rgba(255,255,255,.45)" stroke-width="2"/>
+      <path d="M46 20 L72 30 L72 53 Q72 72 46 81 Q20 72 20 53 L20 30 Z"
+        fill="none" stroke="rgba(255,255,255,.25)" stroke-width="1.5"/>
+      <path d="M34 60 L34 43 L46 33 L58 43 L58 60 Z"
+        fill="none" stroke="white" stroke-width="2.5" opacity=".88"/>
+      <path d="M38 60 L38 50 L54 50 L54 60"
+        fill="none" stroke="white" stroke-width="2.5" opacity=".88"/>
+      <path d="M26 68 Q36 61 46 68 Q56 75 66 68"
+        fill="none" stroke="white" stroke-width="2" opacity=".65"/>
+      <rect x="96" y="4" width="2" height="90" fill="rgba(255,255,255,.18)"/>
+      <text x="108" y="42" fill="white"
+        font-family="Encode Sans, sans-serif" font-weight="900"
+        font-size="33" letter-spacing="2">TUXPAN</text>
+      <text x="108" y="62" fill="rgba(255,255,255,.6)"
+        font-family="Encode Sans, sans-serif" font-weight="600"
+        font-size="13" letter-spacing="1.5">GOBIERNO MUNICIPAL 2026–2029</text>
+      <text x="108" y="80" fill="#D4AA7A"
+        font-family="Encode Sans, sans-serif" font-weight="700"
+        font-size="14">¡Hagamos las cosas BIEN!</text>
+    </svg>
+  </div>
+
+  <div class="cover-body">
+    <div class="cover-t1">CIEN DÍAS</div>
+    <div class="cover-t2">DE ACCIÓN</div>
+  </div>
+  <div class="cover-rule"></div>
+  <div class="cover-sub">H. Ayuntamiento de Tuxpan, Veracruz 2026–2029</div>
+</div>
+
+
+<!-- ════════════════════════════════════════════════
+     PORTADA BLOQUE 2 — ASISTENCIA SOCIAL
+════════════════════════════════════════════════ -->
+<div class="slide s-block">
+  <div class="block-eyebrow">BLOQUE 02</div>
+  <div class="block-rule"></div>
+  <div class="block-title fade-up">ASISTENCIA SOCIAL<br>Y ATENCIÓN A GRUPOS<br>VULNERABLES</div>
+</div>
+
+
+<!-- B2 · SLIDE 1 — SALUD EN CASA -->
+<div class="slide s-content">
+  <span class="badge">100 DÍAS</span>
+  <div class="topic fade-up">SALUD EN CASA</div>
+  <div class="data-row stats-3">
+    <div class="stat fade-up" style="transition-delay:.10s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num">+2,500</div>
+        <div class="stat-lbl">Personas Atendidas<br>en Salud en Casa.</div>
+      </div>
+    </div>
+    <div class="stat fade-up" style="transition-delay:.20s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num" data-target="2100">0</div>
+        <div class="stat-lbl">Medicamentos<br>Entregados.</div>
+      </div>
+    </div>
+    <div class="stat fade-up" style="transition-delay:.30s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num" data-target="395">0</div>
+        <div class="stat-lbl">Estudiantes en<br>Escuelas Saludables.</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer-title">Salud preventiva y atención directa en el municipio.</div>
+    <div class="footer-inst">DIF Municipal de Tuxpan, Veracruz 2026–2029</div>
+  </div>
+</div>
+
+
+<!-- B2 · SLIDE 2 — ATENCIÓN COMUNITARIA -->
+<div class="slide s-content">
+  <span class="badge">100 DÍAS</span>
+  <div class="topic fade-up">ATENCIÓN COMUNITARIA</div>
+  <div class="data-row stats-3">
+    <div class="stat fade-up" style="transition-delay:.10s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num" data-target="4000">0</div>
+        <div class="stat-lbl">Niñas y Niños<br>Beneficiados.</div>
+      </div>
+    </div>
+    <div class="stat fade-up" style="transition-delay:.20s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num" data-target="45">0</div>
+        <div class="stat-lbl">Comunidades<br>y Colonias.</div>
+      </div>
+    </div>
+    <div class="stat fade-up" style="transition-delay:.30s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num" data-target="157">0</div>
+        <div class="stat-lbl">Parejas en<br>Bodas Colectivas.</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer-title">Alcance social en todo el municipio.</div>
+    <div class="footer-inst">DIF Municipal de Tuxpan, Veracruz 2026–2029</div>
+  </div>
+</div>
+
+
+<!-- B2 · SLIDE 3 — CAPACITACIÓN Y APOYOS -->
+<div class="slide s-content">
+  <span class="badge">100 DÍAS</span>
+  <div class="topic fade-up">CAPACITACIÓN Y APOYOS</div>
+  <div class="data-row stats-3">
+    <div class="stat fade-up" style="transition-delay:.10s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num" data-target="50">0</div>
+        <div class="stat-lbl">Talleres de<br>Capacitación.</div>
+      </div>
+    </div>
+    <div class="stat fade-up" style="transition-delay:.20s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num" data-target="1289">0</div>
+        <div class="stat-lbl">Personas<br>Beneficiadas.</div>
+      </div>
+    </div>
+    <div class="stat fade-up" style="transition-delay:.30s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num">+2,500</div>
+        <div class="stat-lbl">Apoyos<br>Directos.</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer-title">Formación y apoyo para el desarrollo de las familias.</div>
+    <div class="footer-inst">DIF Municipal de Tuxpan, Veracruz 2026–2029</div>
+  </div>
+</div>
+
+
+<!-- B2 · SLIDE 4 — DESAYUNOS ESCOLARES -->
+<div class="slide s-content">
+  <span class="badge">100 DÍAS</span>
+  <div class="topic fade-up">DESAYUNOS ESCOLARES</div>
+  <div class="data-row stats-3">
+    <div class="stat fade-up" style="transition-delay:.10s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num" data-target="646162">0</div>
+        <div class="stat-lbl">Desayunos<br>Entregados.</div>
+      </div>
+    </div>
+    <div class="stat fade-up" style="transition-delay:.20s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num" data-target="131">0</div>
+        <div class="stat-lbl">Escuelas<br>Beneficiadas.</div>
+      </div>
+    </div>
+    <div class="stat fade-up" style="transition-delay:.30s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num" data-target="6034">0</div>
+        <div class="stat-lbl">Niñas y Niños<br>Atendidos.</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer-title">Nutrición garantizada en el aula.</div>
+    <div class="footer-inst">DIF Municipal de Tuxpan, Veracruz 2026–2029</div>
+  </div>
+</div>
+
+
+<!-- B2 · SLIDE 5 — ATENCIÓN A LA MUJER -->
+<div class="slide s-content">
+  <span class="badge">100 DÍAS</span>
+  <div class="topic fade-up">ATENCIÓN A LA MUJER</div>
+  <div class="data-row stats-4">
+    <div class="stat fade-up" style="transition-delay:.10s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num" data-target="4300">0</div>
+        <div class="stat-lbl">Atenciones<br>Brindadas.</div>
+      </div>
+    </div>
+    <div class="stat fade-up" style="transition-delay:.20s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num" data-target="1400">0</div>
+        <div class="stat-lbl">Asesorías<br>Jurídicas.</div>
+      </div>
+    </div>
+    <div class="stat fade-up" style="transition-delay:.30s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num" data-target="524">0</div>
+        <div class="stat-lbl">Mujeres<br>Acompañadas.</div>
+      </div>
+    </div>
+    <div class="stat fade-up" style="transition-delay:.40s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num" data-target="181">0</div>
+        <div class="stat-lbl">Atenciones<br>Jurídicas.</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer-title">Apoyo integral a las mujeres del municipio.</div>
+    <div class="footer-inst">DIF Municipal / H. Ayuntamiento de Tuxpan, Veracruz 2026–2029</div>
+  </div>
+</div>
+
+
+<!-- PORTADA BLOQUE 3 — TU CIUDAD, MEJOR -->
+<div class="slide s-block">
+  <div class="block-eyebrow">BLOQUE 03</div>
+  <div class="block-rule"></div>
+  <div class="block-title fade-up">TU CIUDAD,<br>MEJOR</div>
+</div>
+
+
+<!-- B3 · SLIDE 1 — ALUMBRADO PÚBLICO -->
+<div class="slide s-content">
+  <span class="badge">100 DÍAS</span>
+  <div class="topic fade-up">ALUMBRADO PÚBLICO</div>
+  <div class="data-row stats-3">
+    <div class="stat fade-up" style="transition-delay:.10s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num" data-target="3282">0</div>
+        <div class="stat-lbl">Luminarias<br>Instaladas.</div>
+      </div>
+    </div>
+    <div class="stat fade-up" style="transition-delay:.20s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num">1/5</div>
+        <div class="stat-lbl">Del Total<br>Municipal.</div>
+      </div>
+    </div>
+    <div class="stat fade-up" style="transition-delay:.30s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num" data-target="630">0</div>
+        <div class="stat-lbl">Nuevas Zonas<br>Iluminadas.</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer-title">Tuxpan más seguro y mejor iluminado.</div>
+    <div class="footer-inst">H. Ayuntamiento de Tuxpan, Veracruz 2026–2029</div>
+  </div>
+</div>
+
+
+<!-- B3 · SLIDE 2 — ELECTRIFICACIÓN RURAL -->
+<div class="slide s-content">
+  <span class="badge">100 DÍAS</span>
+  <div class="topic fade-up">ELECTRIFICACIÓN RURAL</div>
+  <div class="data-row stats-3">
+    <div class="stat fade-up" style="transition-delay:.10s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num" data-target="400">0</div>
+        <div class="stat-lbl">Luminarias<br>Encendidas.</div>
+      </div>
+    </div>
+    <div class="stat fade-up" style="transition-delay:.20s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num" data-target="67">0</div>
+        <div class="stat-lbl">Comunidades<br>Beneficiadas.</div>
+      </div>
+    </div>
+    <div class="stat fade-up" style="transition-delay:.30s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num" data-target="75">0</div>
+        <div class="stat-lbl">Luminarias<br>Adicionales.</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer-title">Luz llegando a cada comunidad del municipio.</div>
+    <div class="footer-inst">H. Ayuntamiento de Tuxpan, Veracruz 2026–2029</div>
+  </div>
+</div>
+
+
+<!-- B3 · SLIDE 3 — INFRAESTRUCTURA Y RECOLECCIÓN -->
+<div class="slide s-content">
+  <span class="badge">100 DÍAS</span>
+  <div class="topic fade-up">INFRAESTRUCTURA Y RECOLECCIÓN</div>
+  <div class="data-row stats-4">
+    <div class="stat fade-up" style="transition-delay:.10s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num" data-target="550">0</div>
+        <div class="stat-lbl">Personas con<br>Acceso a Luz.</div>
+      </div>
+    </div>
+    <div class="stat fade-up" style="transition-delay:.20s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num">1.5 KM</div>
+        <div class="stat-lbl">Tramos<br>Iluminados.</div>
+      </div>
+    </div>
+    <div class="stat fade-up" style="transition-delay:.30s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num" data-target="17">0</div>
+        <div class="stat-lbl">Camiones de<br>Recolección.</div>
+      </div>
+    </div>
+    <div class="stat fade-up" style="transition-delay:.40s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num" data-target="84">0</div>
+        <div class="stat-lbl">Rutas de<br>Recolección.</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer-title">Movilidad limpia y espacios bien servidos.</div>
+    <div class="footer-inst">H. Ayuntamiento de Tuxpan, Veracruz 2026–2029</div>
+  </div>
+</div>
+
+
+<!-- B3 · SLIDE 4 — ESPACIOS PÚBLICOS -->
+<div class="slide s-content">
+  <span class="badge">100 DÍAS</span>
+  <div class="topic fade-up">ESPACIOS PÚBLICOS</div>
+  <div class="data-row stats-3">
+    <div class="stat fade-up" style="transition-delay:.10s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num" data-target="90">0</div>
+        <div class="stat-lbl">Contenedores<br>Instalados.</div>
+      </div>
+    </div>
+    <div class="stat fade-up" style="transition-delay:.20s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num">105 KM</div>
+        <div class="stat-lbl">Camellones<br>Atendidos.</div>
+      </div>
+    </div>
+    <div class="stat fade-up" style="transition-delay:.30s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num" data-target="29">0</div>
+        <div class="stat-lbl">Espacios Públicos<br>Intervenidos.</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer-title">Ciudad más limpia, ordenada y habitable.</div>
+    <div class="footer-inst">H. Ayuntamiento de Tuxpan, Veracruz 2026–2029</div>
+  </div>
+</div>
+
+
+<!-- PORTADA BLOQUE 4 — IDENTIDAD Y FUTURO -->
+<div class="slide s-block">
+  <div class="block-eyebrow">BLOQUE 04</div>
+  <div class="block-rule"></div>
+  <div class="block-title fade-up">IDENTIDAD<br>Y FUTURO</div>
+</div>
+
+
+<!-- B4 · SLIDE 1 — INFRAESTRUCTURA EDUCATIVA -->
+<div class="slide s-content">
+  <span class="badge">100 DÍAS</span>
+  <div class="topic fade-up">INFRAESTRUCTURA EDUCATIVA</div>
+  <div class="data-row stats-3">
+    <div class="stat fade-up" style="transition-delay:.10s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num" data-target="29">0</div>
+        <div class="stat-lbl">Planteles<br>Atendidos.</div>
+      </div>
+    </div>
+    <div class="stat fade-up" style="transition-delay:.20s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num" data-target="12">0</div>
+        <div class="stat-lbl">En Proceso de<br>Escrituración.</div>
+      </div>
+    </div>
+    <div class="stat fade-up" style="transition-delay:.30s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num" data-target="560">0</div>
+        <div class="stat-lbl">Alumnos<br>Beneficiados.</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer-title">Regularizando y fortaleciendo la infraestructura educativa.</div>
+    <div class="footer-inst">H. Ayuntamiento de Tuxpan, Veracruz 2026–2029</div>
+  </div>
+</div>
+
+
+<!-- B4 · SLIDE 2 — EDUCACIÓN Y CULTURA -->
+<div class="slide s-content">
+  <span class="badge">100 DÍAS</span>
+  <div class="topic fade-up">EDUCACIÓN Y CULTURA</div>
+  <div class="data-row stats-4">
+    <div class="stat fade-up" style="transition-delay:.10s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num" data-target="918">0</div>
+        <div class="stat-lbl">Alumnos.</div>
+      </div>
+    </div>
+    <div class="stat fade-up" style="transition-delay:.20s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num" data-target="82">0</div>
+        <div class="stat-lbl">Profesores.</div>
+      </div>
+    </div>
+    <div class="stat fade-up" style="transition-delay:.30s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num" data-target="540">0</div>
+        <div class="stat-lbl">Personas<br>Orientadas.</div>
+      </div>
+    </div>
+    <div class="stat fade-up" style="transition-delay:.40s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num" data-target="900">0</div>
+        <div class="stat-lbl">Participantes en<br>Actividades Culturales.</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer-title">Impulsando el talento y la cultura de Tuxpan.</div>
+    <div class="footer-inst">H. Ayuntamiento de Tuxpan, Veracruz 2026–2029</div>
+  </div>
+</div>
+
+
+<!-- B4 · SLIDE 3 — JUVENTUD -->
+<div class="slide s-content">
+  <span class="badge">100 DÍAS</span>
+  <div class="topic fade-up">JUVENTUD</div>
+  <div class="data-row">
+    <div class="stat fade-up" style="transition-delay:.12s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num" data-target="133">0</div>
+        <div class="stat-lbl">Alumnos en<br>Talleres.</div>
+      </div>
+    </div>
+    <div class="stat fade-up" style="transition-delay:.26s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num" data-target="120">0</div>
+        <div class="stat-lbl">Jóvenes con<br>Tarjeta JUVENTUX.</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer-title">Jóvenes con oportunidades y futuro.</div>
+    <div class="footer-inst">IMJUVE Tuxpan, Veracruz 2026–2029</div>
+  </div>
+</div>
+
+
+<!-- B4 · SLIDE 4 — ECONOMÍA LOCAL -->
+<div class="slide s-content">
+  <span class="badge">100 DÍAS</span>
+  <div class="topic fade-up">ECONOMÍA LOCAL</div>
+  <div class="data-row stats-3">
+    <div class="stat fade-up" style="transition-delay:.10s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num" data-target="25">0</div>
+        <div class="stat-lbl">Comercios<br>Afiliados.</div>
+      </div>
+    </div>
+    <div class="stat fade-up" style="transition-delay:.20s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num" data-target="85">0</div>
+        <div class="stat-lbl">Participantes<br>en Feria.</div>
+      </div>
+    </div>
+    <div class="stat fade-up" style="transition-delay:.30s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num">+350</div>
+        <div class="stat-lbl">Asistentes<br>a Foro.</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer-title">Dinamizando la economía local desde el primer día.</div>
+    <div class="footer-inst">H. Ayuntamiento de Tuxpan, Veracruz 2026–2029</div>
+  </div>
+</div>
+
+
+<!-- PORTADA BLOQUE 6 — TUXPAN COMPITE, DEPORTE -->
+<div class="slide s-block">
+  <div class="block-eyebrow">BLOQUE 06</div>
+  <div class="block-rule"></div>
+  <div class="block-title fade-up">TUXPAN COMPITE,<br>DEPORTE</div>
+</div>
+
+
+<!-- B6 · SLIDE 1 — DEPORTE COMPETITIVO -->
+<div class="slide s-content">
+  <span class="badge">100 DÍAS</span>
+  <div class="topic fade-up">DEPORTE COMPETITIVO</div>
+  <div class="data-row stats-3">
+    <div class="stat fade-up" style="transition-delay:.10s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num" data-target="375">0</div>
+        <div class="stat-lbl">Atletas en<br>CONADE 2026.</div>
+      </div>
+    </div>
+    <div class="stat fade-up" style="transition-delay:.20s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num" data-target="15">0</div>
+        <div class="stat-lbl">Disciplinas.</div>
+      </div>
+    </div>
+    <div class="stat fade-up" style="transition-delay:.30s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num" data-target="44">0</div>
+        <div class="stat-lbl">Medallas<br>de Oro.</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer-title">Tuxpan compite y gana a nivel nacional.</div>
+    <div class="footer-inst">IMDET Tuxpan, Veracruz 2026–2029</div>
+  </div>
+</div>
+
+
+<!-- PORTADA BLOQUE 8 — GOBIERNO CERCANO -->
+<div class="slide s-block">
+  <div class="block-eyebrow">BLOQUE 08</div>
+  <div class="block-rule"></div>
+  <div class="block-title fade-up">GOBIERNO CERCANO,<br>INCLUYENTE Y<br>QUE DA RESPUESTA</div>
+</div>
+
+
+<!-- B8 · SLIDE 1 — PARTICIPACIÓN CIUDADANA -->
+<div class="slide s-content">
+  <span class="badge">100 DÍAS</span>
+  <div class="topic fade-up">PARTICIPACIÓN CIUDADANA</div>
+  <div class="data-row stats-6">
+    <div class="stat fade-up" style="transition-delay:.08s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num" data-target="45">0</div>
+        <div class="stat-lbl">Jornadas<br>Comunitarias.</div>
+      </div>
+    </div>
+    <div class="stat fade-up" style="transition-delay:.16s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num" data-target="60">0</div>
+        <div class="stat-lbl">Gestores<br>Vecinales.</div>
+      </div>
+    </div>
+    <div class="stat fade-up" style="transition-delay:.24s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num" data-target="1200">0</div>
+        <div class="stat-lbl">Personas en<br>Consulta Pública.</div>
+      </div>
+    </div>
+    <div class="stat fade-up" style="transition-delay:.32s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num" data-target="44">0</div>
+        <div class="stat-lbl">Comunidades<br>Participantes.</div>
+      </div>
+    </div>
+    <div class="stat fade-up" style="transition-delay:.40s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num" data-target="6">0</div>
+        <div class="stat-lbl">Foros<br>Ciudadanos.</div>
+      </div>
+    </div>
+    <div class="stat fade-up" style="transition-delay:.48s">
+      <div class="stat-vbar"></div>
+      <div class="stat-inner">
+        <div class="stat-num" data-target="1675">0</div>
+        <div class="stat-lbl">Solicitudes<br>Atendidas.</div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="footer-title">Un gobierno que escucha y responde a su gente.</div>
+    <div class="footer-inst">H. Ayuntamiento de Tuxpan, Veracruz 2026–2029</div>
+  </div>
+</div>
+
+</div><!-- /track -->
+</div><!-- /scaler -->
+</div><!-- /wrapper -->
+
+<!-- Navegación -->
+<button class="nav-btn" id="btn-prev">&#8592;</button>
+<button class="nav-btn" id="btn-next">&#8594;</button>
+<div id="dots"></div>
+<div id="slide-lbl">1 / 8</div>
+
+<!-- Botón pantalla completa -->
+<button id="btn-fs" title="Pantalla completa">
+  <svg id="icon-enter" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="15 3 21 3 21 9"/><polyline points="9 21 3 21 3 15"/>
+    <line x1="21" y1="3" x2="14" y2="10"/><line x1="3" y1="21" x2="10" y2="14"/>
+  </svg>
+  <svg id="icon-exit" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none">
+    <polyline points="4 14 10 14 10 20"/><polyline points="20 10 14 10 14 4"/>
+    <line x1="10" y1="14" x2="3" y2="21"/><line x1="21" y1="3" x2="14" y2="10"/>
+  </svg>
+</button>
+
+<script>
+const TOTAL   = 21;
+let cur       = 0;
+let animating = false;
+
+const track  = document.getElementById('track');
+const scaler = document.getElementById('scaler');
+const dotsEl = document.getElementById('dots');
+const lblEl  = document.getElementById('slide-lbl');
+const slides = document.querySelectorAll('.slide');
+
+/* ── Scaling centrado en viewport ── */
+function resize() {
+  const s = Math.min(window.innerWidth / 1920, window.innerHeight / 1080);
+  const x = (window.innerWidth  - 1920 * s) / 2;
+  const y = (window.innerHeight - 1080 * s) / 2;
+  scaler.style.transform = `translate(${x}px,${y}px) scale(${s})`;
+}
+window.addEventListener('resize', resize);
+resize();
+
+/* ── Dots ── */
+for (let i = 0; i < TOTAL; i++) {
+  const d = document.createElement('div');
+  d.className = 'dot' + (i === 0 ? ' on' : '');
+  d.addEventListener('click', () => goTo(i));
+  dotsEl.appendChild(d);
+}
+
+function updateUI() {
+  document.querySelectorAll('.dot').forEach((d, i) => d.classList.toggle('on', i === cur));
+  lblEl.textContent = `${cur + 1} / ${TOTAL}`;
+}
+
+/* ── Count-up ── */
+function countUp(el) {
+  const target = parseInt(el.dataset.target, 10);
+  if (!target) return;
+  const dur = Math.min(1400, 500 + target * .12);
+  const t0  = performance.now();
+  (function step(now) {
+    const p    = Math.min((now - t0) / dur, 1);
+    const ease = 1 - Math.pow(1 - p, 3);
+    el.textContent = Math.round(ease * target).toLocaleString('es-MX');
+    if (p < 1) requestAnimationFrame(step);
+    else el.textContent = target.toLocaleString('es-MX');
+  })(t0);
+}
+
+function activateSlide(slide) {
+  slide.querySelectorAll('[data-target]').forEach(el => {
+    el.textContent = '0';
+    setTimeout(() => countUp(el), 380);
+  });
+}
+
+/* ── Navegación ── */
+function goTo(idx) {
+  if (idx === cur || animating) return;
+  animating = true;
+  slides[cur].classList.remove('active');
+  cur = Math.max(0, Math.min(TOTAL - 1, idx));
+  slides[cur].classList.add('active');
+  track.style.transform = `translateX(${-1920 * cur}px)`;
+  updateUI();
+  activateSlide(slides[cur]);
+  setTimeout(() => animating = false, 750);
+}
+
+function next() { goTo(cur + 1); }
+function prev() { goTo(cur - 1); }
+
+document.getElementById('btn-prev').addEventListener('click', prev);
+document.getElementById('btn-next').addEventListener('click', next);
+
+document.addEventListener('keydown', e => {
+  if (e.key === 'ArrowRight' || e.key === ' ') { e.preventDefault(); next(); }
+  if (e.key === 'ArrowLeft')                   { e.preventDefault(); prev(); }
+  if (e.key === 'End')                         { goTo(TOTAL - 1); }
+  /* Escape: sale de fullscreen si está activo; el browser lo maneja nativamente */
+});
+
+/* ── Fullscreen ── */
+const btnFs     = document.getElementById('btn-fs');
+const iconEnter = document.getElementById('icon-enter');
+const iconExit  = document.getElementById('icon-exit');
+let   hideTimer = null;
+
+btnFs.addEventListener('click', async () => {
+  try {
+    if (!document.fullscreenElement) {
+      await document.documentElement.requestFullscreen({ navigationUI: 'hide' });
+    } else {
+      await document.exitFullscreen();
+    }
+  } catch(err) {
+    console.warn('Fullscreen error:', err);
+  }
+});
+
+function onFSChange() {
+  const fs = !!document.fullscreenElement;
+  document.body.classList.toggle('is-fullscreen', fs);
+  iconEnter.style.display = fs ? 'none' : '';
+  iconExit.style.display  = fs ? ''     : 'none';
+  clearTimeout(hideTimer);
+  document.body.classList.remove('hide-cursor');
+  if (fs) {
+    hideTimer = setTimeout(() => document.body.classList.add('hide-cursor'), 2800);
+  }
+  resize();
+}
+
+document.addEventListener('fullscreenchange', onFSChange);
+document.addEventListener('webkitfullscreenchange', onFSChange);
+
+document.addEventListener('mousemove', () => {
+  if (!document.fullscreenElement) return;
+  document.body.classList.remove('hide-cursor');
+  clearTimeout(hideTimer);
+  hideTimer = setTimeout(() => document.body.classList.add('hide-cursor'), 2800);
+});
+
+/* ── Touch ── */
+let tx = null;
+window.addEventListener('touchstart', e => { tx = e.touches[0].clientX; }, { passive: true });
+window.addEventListener('touchend',   e => {
+  if (tx === null) return;
+  const dx = e.changedTouches[0].clientX - tx;
+  if (Math.abs(dx) > 50) dx < 0 ? next() : prev();
+  tx = null;
+}, { passive: true });
+
+/* ── Init ── */
+activateSlide(slides[0]);
+updateUI();
+</script>
+</body>
+</html>
